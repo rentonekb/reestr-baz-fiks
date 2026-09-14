@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12174929-1b0d-4692-b4e9-9f3ed7d89676">
+  <producedTypes>
+    <selectionType typeId="5f5e6f22-0d9d-4928-b7b3-a5e739099b50" valueTypeId="0fade802-c210-4cc7-9524-77dfe4b6ceec"/>
+    <listType typeId="7de77f1e-1d7d-45cd-af8c-801e516ae0c1" valueTypeId="c2c1bab9-1e90-4d40-bb77-e1f3327ffec2"/>
+    <managerType typeId="4bbb1a96-3d6f-4b5b-ab6d-9be57e527f44" valueTypeId="ff33ba02-507c-4f62-ba7f-ebf80fe7ed27"/>
+    <recordSetType typeId="0caf5f9f-85d6-4c70-acb2-f32b3cca7145" valueTypeId="cf0a7bdb-edb8-4f63-b13f-b9ecdd30e8b3"/>
+    <recordKeyType typeId="bd583617-97c6-4cc8-94b0-75753ebaefa1" valueTypeId="2ebb5be4-bbeb-4427-93ed-9b25416b80e5"/>
+    <recordType typeId="b8361c7f-221a-42fe-b92b-99ac408e381a" valueTypeId="4dd2feb0-5375-48c0-8a1c-1372c6c1cae0"/>
+    <recordManagerType typeId="451edbaa-18e9-4a8d-8811-53fafda7196d" valueTypeId="d37eccfb-b125-4ac7-8e8a-1b5d7ec6cc96"/>
+  </producedTypes>
+  <name>КластерыПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеры 1С (автоопределение)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c720c5a4-612c-4c76-a6e7-3872ed771fac">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="fd8f414b-49ae-4fca-9d56-5e7b95b77a03">
+    <name>ПортRAS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт RAS</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="4700d963-267e-416d-b0d9-985b6c6828cf">
+    <name>ПутьКRac</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к rac</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="008c4150-0d4a-4d45-84ce-b8cfe3a75fe3">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a6dec933-0961-420a-a101-d64b9dacbb5b">
+    <name>ПортКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт кластера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

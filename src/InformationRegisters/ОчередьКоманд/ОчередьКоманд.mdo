@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b662f43-10bb-4002-b8b7-f7305c1f528c">
+  <producedTypes>
+    <selectionType typeId="a3cde393-9353-4fbc-aceb-859f71208ab2" valueTypeId="b1c3e7a1-ac2c-4c73-b285-9f3de85d6b3f"/>
+    <listType typeId="71183d81-8d6c-400f-b7b2-553333413333" valueTypeId="bb37b104-98da-4f12-8613-b989b3a00522"/>
+    <managerType typeId="76f1710c-e1ed-4c6d-a810-54d6e5934855" valueTypeId="da361acc-e7e4-4a6a-b484-3c98461cf701"/>
+    <recordSetType typeId="90d9e9c5-b79e-4c04-929b-360e91e9b1e0" valueTypeId="881fa807-799c-4dfd-a79f-3ba8b905b58e"/>
+    <recordKeyType typeId="43bf4fe9-c0f0-4441-bf88-cbdc4024f414" valueTypeId="0b12c592-2eb0-493a-b11b-10891b3c882f"/>
+    <recordType typeId="a78e3236-f32e-418a-8ee5-61273cf5db5b" valueTypeId="cc3dc96e-0e77-47c0-91d9-674c967ed92c"/>
+    <recordManagerType typeId="38dec63f-78bd-4a01-aaaf-3b1cbd6dd57d" valueTypeId="bfee7d38-ee5b-4d47-bb4e-841428252687"/>
+  </producedTypes>
+  <name>ОчередьКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь команд обслуживания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0d0790ff-cc39-423c-8aa4-8b7bafbd2ea9">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="bd3bbb3c-a8f5-4d82-8f72-1f44c03ea6ca">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="16f2f4a0-f07f-4710-8e55-5de3529c1b4c">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="584e00c5-fea7-4a33-b9d3-853a1d16b711">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="215a59c8-34b0-48c3-9b75-a2c7d51c5d83">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f93bb21c-cc03-4611-af07-d761488b9df5">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

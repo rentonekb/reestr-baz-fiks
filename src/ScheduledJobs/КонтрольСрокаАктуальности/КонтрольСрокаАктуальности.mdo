@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4cb8e80-6624-45cc-bd32-f9500d0a0f1b">
+  <name>КонтрольСрокаАктуальности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль срока актуальности баз</value>
+  </synonym>
+  <methodName>CommonModule.ПравилаРеестраБаз.КонтрольСрокаАктуальности</methodName>
+  <description>Контроль срока актуальности баз</description>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

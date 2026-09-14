@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c32352a-e8fc-4be0-992e-88e3a77a17c7">
+  <name>КонтрольСеансовБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль числа сеансов</value>
+  </synonym>
+  <methodName>CommonModule.ПравилаРеестраБаз.КонтрольСеансов</methodName>
+  <description>Контроль числа сеансов</description>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

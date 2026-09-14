@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b4596295-dab4-4a27-b3e3-8ef8c98bb70a">
+  <name>РеестрБазФикс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be13e898-3c4f-4764-9f00-f2efa042ad34"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fd6a5d31-442c-4bd4-9b84-4b863b80e417"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a8cb398f-b5ea-4ca1-981e-2eef36d33047"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0a33c456-4174-4f7d-ade3-22007bc331e5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4b22d74f-1439-41fc-90f4-794f40ac278a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="df9ae9d9-c4fe-45b7-8e33-2c371411487b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1519fa85-d264-458a-98e5-d7173bdfd385"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <subsystems>Subsystem.УправлениеБД</subsystems>
+  <commonModules>CommonModule.РегламентныеЗаданияПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПравилаРеестраБаз</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеКластеров</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КонтрольДоступностиБаз</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КонтрольСеансовБаз</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбработчикКомандОбслуживания</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КонтрольВладельцевБаз</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КонтрольСрокаАктуальности</scheduledJobs>
+  <informationRegisters>InformationRegister.КластерыПлатформы</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеБаз</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьКоманд</informationRegisters>
+  <informationRegisters>InformationRegister.КонтрольБаз</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПравилРеестра</informationRegisters>
+  <informationRegisters>InformationRegister.АктивностьБаз</informationRegisters>
+  <informationRegisters>InformationRegister.СерверыИБазы</informationRegisters>
+</mdclass:Configuration>

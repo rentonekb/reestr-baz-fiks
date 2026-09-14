@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8643ea8-5677-454e-8899-0221006ce02c">
+  <producedTypes>
+    <selectionType typeId="85d6e374-31ec-499b-8264-6dc18dc90345" valueTypeId="927a5aed-355a-4aef-8c62-4da20b23d563"/>
+    <listType typeId="58245bef-e7d1-4b17-9d4f-c4a007af1741" valueTypeId="3d709f32-2c21-4153-aa12-ce9809ab6fc0"/>
+    <managerType typeId="64d043ac-6af9-4aa6-b37c-dbd8bd8195e9" valueTypeId="8a752ee1-ed88-49ca-bb8b-e4cc24082efc"/>
+    <recordSetType typeId="1e31f0d4-2f6f-49f4-83d6-df4cf0051a56" valueTypeId="5e7f6feb-7c38-456a-a2fb-494fbf660dcb"/>
+    <recordKeyType typeId="1e40dab8-5837-4ee5-9641-02dd76dddc9a" valueTypeId="9688320a-0476-455b-881f-9b3b4468a7d2"/>
+    <recordType typeId="6d53a978-b112-46ce-b403-a3ab61e8e97c" valueTypeId="7733dae1-54e7-422e-acb7-28b00e868b8b"/>
+    <recordManagerType typeId="6f2e7c96-163a-4d94-bcd4-98ea0a844c70" valueTypeId="01c10cf8-7357-4ec0-8e06-659bc2fc64c5"/>
+  </producedTypes>
+  <name>СостояниеБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4c8915c8-7034-48c1-a2a6-dd7cb979b848">
+    <name>ЗаданияЗапрещены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные задания запрещены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7b7c62dd-24bc-456a-bbd1-4543f5c583e3">
+    <name>СеансыЗапрещены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеансы запрещены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="838294fc-61fc-426f-9f24-dc7e277b10b7">
+    <name>СостояниеСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в СУБД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="e71c335f-a7b3-4f46-9ddc-436fbecceff8">
+    <name>ЧислоСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеансов сейчас</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4ac880bd-ac33-4d94-9c00-667ff1c14c50">
+    <name>ОбычноеЧислоСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычно сеансов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="81b73378-1ab9-4e70-9fbb-a01fbe81eaf1">
+    <name>ДатаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b33a5f9b-7413-4608-a4da-fe31196d753e">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="e82ec134-96c9-4939-a0b5-02844906c265">
+    <name>ИмяБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

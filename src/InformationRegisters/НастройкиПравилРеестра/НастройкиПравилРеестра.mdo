@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2df16a1-e18c-47fd-8a25-9f53ba15f686">
+  <producedTypes>
+    <selectionType typeId="aaab78ed-0726-4f13-a8e9-866268582b42" valueTypeId="a6d9ca2a-0189-4bb5-8fc6-e4bbdbaf9b1a"/>
+    <listType typeId="dfc8469b-cf53-4025-b856-ca6dbab8955b" valueTypeId="0b6dca86-ed08-4c2a-9fc3-bd9040906141"/>
+    <managerType typeId="dd8625fc-d5f7-4c86-b6f4-df109b9afb6b" valueTypeId="0352d2fd-0b50-4fa1-81b6-525fa60405b2"/>
+    <recordSetType typeId="fac769cb-8a95-4251-bbca-7ad6a38d3fc9" valueTypeId="53f2f5f4-79fb-40e5-aefe-88910f8252f2"/>
+    <recordKeyType typeId="3314377c-08ab-4a69-bfa2-f306fea6da94" valueTypeId="11e7a40e-91f9-4891-9fc0-00f917cb244f"/>
+    <recordType typeId="9a902d69-9c89-4283-a9e8-47a5dbc6c496" valueTypeId="dedc5dd1-6fe0-4886-98b5-b730a9a4c5f4"/>
+    <recordManagerType typeId="de4f4f4b-6550-48d9-b676-1f99fff0ed01" valueTypeId="564a0dfa-d4ca-4576-9348-db0334cd96ca"/>
+  </producedTypes>
+  <name>НастройкиПравилРеестра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки правил реестра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cbca0383-6fcb-4b38-a5ca-e3d65d7fc17a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="80705908-26fc-4402-bb79-f988961889b1">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

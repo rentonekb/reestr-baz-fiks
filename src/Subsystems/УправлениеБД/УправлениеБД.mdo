@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="93be17da-f530-4c54-b3b1-31d0077092f0">
+  <name>УправлениеБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление БД</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <synonym>Extended</synonym>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+    <picture>Extended</picture>
+  </extension>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КартинкаУправлениеБД</picture>
+  </picture>
+  <content>InformationRegister.АктивностьБаз</content>
+  <content>InformationRegister.СерверыИБазы</content>
+  <content>6bcbd49e-0665-4d1b-8827-b2c7ca38e01f</content>
+  <content>3a86dcc4-7fa8-4b25-b671-98c04e065811</content>
+  <content>32ad36a1-1925-4d74-aeca-2a354217e9e8</content>
+</mdclass:Subsystem>

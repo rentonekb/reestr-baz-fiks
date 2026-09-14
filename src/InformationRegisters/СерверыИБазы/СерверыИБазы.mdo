@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b080d23a-6606-4981-904b-58b896756911">
+  <producedTypes>
+    <selectionType typeId="11e3fb9c-12d7-4b0f-9348-1d2ba94f0f26" valueTypeId="704c6f54-0b3e-4802-bddb-3c0f074e01d7"/>
+    <listType typeId="8aa6b449-a81f-49d5-91f9-345d34034dfc" valueTypeId="2152d35a-6543-4a4f-8c59-94b201a21636"/>
+    <managerType typeId="b5cd34bc-c6ff-4d52-bc01-a0f4391b458a" valueTypeId="b0630ea2-f6b5-4a12-bafb-865062fb598f"/>
+    <recordSetType typeId="ebb2340c-5a28-4fff-a4d8-957afbc3e7aa" valueTypeId="c01d53ac-2d62-43f2-ba48-81b6f9ab9f09"/>
+    <recordKeyType typeId="02fac2a0-1700-44ec-9285-3198312eaa03" valueTypeId="76b36be4-0bcb-453d-8a2a-18b5b5a96c7d"/>
+    <recordType typeId="c7dd115f-d334-401c-a905-441a61773cf1" valueTypeId="e6f2ee6e-97c3-47e2-b726-3262d91146a9"/>
+    <recordManagerType typeId="5dda98db-7d8e-4086-9399-fff22e0c57d3" valueTypeId="ccac37cc-5cd2-444b-9876-0ffcf52cbe8b"/>
+  </producedTypes>
+  <name>СерверыИБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы и базы</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <synonym>Extended</synonym>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <defaultRecordForm>Extended</defaultRecordForm>
+    <defaultListForm>Extended</defaultListForm>
+  </extension>
+  <defaultRecordForm>82c50452-d6a9-49d4-82c6-7d3da2635877</defaultRecordForm>
+  <defaultListForm>9c66d447-09b0-4dfe-804a-f04e32d80a4c</defaultListForm>
+  <forms uuid="d5e6e895-cf36-4fa2-b532-7ddf8962ac7f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <synonym>Extended</synonym>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:InformationRegister>

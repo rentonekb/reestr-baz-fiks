@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9de23d4-dea1-4f37-a1f6-36f2dfe0a19c">
+  <name>ОбработчикКомандОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик команд обслуживания</value>
+  </synonym>
+  <methodName>CommonModule.ПравилаРеестраБаз.ОбработчикКоманд</methodName>
+  <description>Выполняет команды обслуживания из очереди</description>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>
