@@ -10,6 +10,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4b22d74f-1439-41fc-90f4-794f40ac278a"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="df9ae9d9-c4fe-45b7-8e33-2c371411487b"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1519fa85-d264-458a-98e5-d7173bdfd385"/>
+  <namePrefix>рбф</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
