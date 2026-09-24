@@ -30,4 +30,5 @@
   <informationRegisters>InformationRegister.НастройкиПравилРеестра</informationRegisters>
   <informationRegisters>InformationRegister.АктивностьБаз</informationRegisters>
   <informationRegisters>InformationRegister.СерверыИБазы</informationRegisters>
+  <informationRegisters>InformationRegister.рбфЛицензии1С</informationRegisters>
 </mdclass:Configuration>
