@@ -140,6 +140,29 @@
       <dateQualifiers/>
     </type>
   </attributes>
+  <attributes uuid="5b49ca89-d089-4910-bdd8-d351c9f7642d">
+    <name>ОборудованиеСовпадает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование совпадает</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="12330957-c1b5-41cd-ab74-478cebb6c081">
+    <name>РезультатПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат проверки оборудования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
   <dimensions uuid="a6222cd6-d186-4b14-93cd-3e37efb03595">
     <name>Сервер</name>
     <synonym>
