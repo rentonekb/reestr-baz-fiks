@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Активность базы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Активность баз</value>
+  </listPresentation>
   <resources uuid="5cf6fa8f-8254-4580-a754-f7fdc48e2e7d">
     <name>ПоследняяАктивность</name>
     <synonym>

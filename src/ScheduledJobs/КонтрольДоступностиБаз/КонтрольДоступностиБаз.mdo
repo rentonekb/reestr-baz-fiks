@@ -6,7 +6,6 @@
     <value>Контроль доступности баз</value>
   </synonym>
   <methodName>CommonModule.ПравилаРеестраБаз.КонтрольДоступности</methodName>
-  <description>Контроль доступности баз</description>
   <use>true</use>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

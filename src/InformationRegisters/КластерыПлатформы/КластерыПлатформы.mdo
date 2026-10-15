@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Кластер платформы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кластеры платформы</value>
+  </listPresentation>
   <resources uuid="c720c5a4-612c-4c76-a6e7-3872ed771fac">
     <name>ВерсияПлатформы</name>
     <synonym>

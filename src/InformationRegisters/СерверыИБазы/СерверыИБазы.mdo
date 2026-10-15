@@ -19,11 +19,28 @@
     <synonym>Extended</synonym>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
     <defaultRecordForm>Extended</defaultRecordForm>
     <defaultListForm>Extended</defaultListForm>
   </extension>
-  <defaultRecordForm>82c50452-d6a9-49d4-82c6-7d3da2635877</defaultRecordForm>
-  <defaultListForm>9c66d447-09b0-4dfe-804a-f04e32d80a4c</defaultListForm>
+  <defaultRecordForm>f3153fcb-1dbe-4ae8-9c06-43aca70cf55b</defaultRecordForm>
+  <defaultListForm>InformationRegister.СерверыИБазы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="90d3e483-49ec-4549-8162-e1fedc4d95b3" extendedConfigurationObject="ebf5a890-90dc-4814-8d75-77ee2bf0d335">
+    <name>ВерсияСУБД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="d5e6e895-cf36-4fa2-b532-7ddf8962ac7f">
     <name>ФормаСписка</name>
     <synonym>

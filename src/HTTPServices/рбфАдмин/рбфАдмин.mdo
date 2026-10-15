@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c050ca95-2bfa-4e70-b9c9-df0139c58360">
+  <name>рбфАдмин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Админ-API реестра баз</value>
+  </synonym>
+  <rootURL>rbf-admin</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="fb042418-f7d7-4db9-bcd0-b752c3ef8012">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <template>/{method}</template>
+    <methods uuid="77f8e2d2-371b-46ee-b971-535c137a2d0d">
+      <name>Выполнить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>КомандаВыполнить</handler>
+    </methods>
+    <methods uuid="6808bdb7-73a8-4aaf-8ada-0cdcd171208c">
+      <name>Прочитать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прочитать</value>
+      </synonym>
+      <handler>КомандаПрочитать</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c8367c8-1b61-4801-a084-d2193136fe6e">
+  <producedTypes>
+    <objectType typeId="3a0dfaa5-0697-4e5f-9aaf-df393196a519" valueTypeId="bead767e-14c2-47d0-baa1-10c3424ca366"/>
+    <managerType typeId="46c0ff72-0e67-4cb7-8123-4ba59adcd816" valueTypeId="05a53ca1-3355-487d-8d75-eea0d0e47f7e"/>
+  </producedTypes>
+  <name>рбфРостТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рост таблиц баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рбфРостТаблиц.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="de2df7c4-ab5e-4d48-b059-2e3261eb9a1c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсновнаяСхемаКомпоновкиДанных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

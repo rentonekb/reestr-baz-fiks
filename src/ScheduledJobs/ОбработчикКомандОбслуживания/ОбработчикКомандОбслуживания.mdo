@@ -6,7 +6,6 @@
     <value>Обработчик команд обслуживания</value>
   </synonym>
   <methodName>CommonModule.ПравилаРеестраБаз.ОбработчикКоманд</methodName>
-  <description>Выполняет команды обслуживания из очереди</description>
   <use>true</use>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

@@ -6,7 +6,6 @@
     <value>Контроль числа сеансов</value>
   </synonym>
   <methodName>CommonModule.ПравилаРеестраБаз.КонтрольСеансов</methodName>
-  <description>Контроль числа сеансов</description>
   <use>true</use>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

@@ -6,7 +6,6 @@
     <value>Контроль срока актуальности баз</value>
   </synonym>
   <methodName>CommonModule.ПравилаРеестраБаз.КонтрольСрокаАктуальности</methodName>
-  <description>Контроль срока актуальности баз</description>
   <use>true</use>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

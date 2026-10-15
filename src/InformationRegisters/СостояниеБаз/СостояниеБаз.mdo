@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние базы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояние баз</value>
+  </listPresentation>
   <resources uuid="4c8915c8-7034-48c1-a2a6-dd7cb979b848">
     <name>ЗаданияЗапрещены</name>
     <synonym>

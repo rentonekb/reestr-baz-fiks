@@ -6,7 +6,6 @@
     <value>Обновление списка кластеров 1С</value>
   </synonym>
   <methodName>CommonModule.ПравилаРеестраБаз.ОбновитьКластеры</methodName>
-  <description>Обновление списка кластеров 1С</description>
   <use>true</use>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

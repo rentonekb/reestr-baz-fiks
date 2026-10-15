@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eec949e-9d08-4044-a6b2-7365eb9bd821">
+  <producedTypes>
+    <selectionType typeId="05ea352c-60f6-44da-8533-4d6f21bea017" valueTypeId="bd372292-001a-4ffd-adcc-35d0ed9b6778"/>
+    <listType typeId="1a2b2f30-f65f-46a0-9707-825adf92625c" valueTypeId="ed0e74f9-b13f-4efb-949f-d981e814082a"/>
+    <managerType typeId="259f2073-321a-41bb-a9a3-79470762deae" valueTypeId="380cdf3a-93db-4a26-b14a-b3c194fcdd66"/>
+    <recordSetType typeId="b7f536ff-e8f2-4eb8-ad06-c22f7bc2014a" valueTypeId="345db0ca-1abf-46c8-a2e9-60d53d278add"/>
+    <recordKeyType typeId="a907845f-231f-4841-85de-4975c58806ee" valueTypeId="bfc7afc6-e0f2-4932-ae08-d0947c13446b"/>
+    <recordType typeId="b63c4051-08b3-424b-a2a6-6e370ac82b84" valueTypeId="c2a3d8c8-0d8c-4daa-8e7b-f88733dd42fc"/>
+    <recordManagerType typeId="5f8c1530-edbe-42da-9cb0-720749b85d46" valueTypeId="e9e7669b-f174-48ee-9e2a-9d89e5fab9f9"/>
+  </producedTypes>
+  <name>рбфВозвратыБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>История возвратов баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="ec3ee052-63d0-4677-9268-adbe5ab0d929">
+    <name>КтоВернул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кто вернул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="c4ff58dd-c278-49d3-ae02-ef03dc1d16fe">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер1с</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="6ac126ec-f745-43f9-bd12-917bc0aeef37">
+    <name>ИмяБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы1с</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="153fce96-02ae-40a6-9a02-bf6c35313daa">
+    <name>ДатаВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата возврата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

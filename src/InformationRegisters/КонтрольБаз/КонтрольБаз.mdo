@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись контроля базы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контроль баз (правила)</value>
+  </listPresentation>
   <resources uuid="308b8412-b6f8-45b5-b38f-7397f4b66390">
     <name>ДатаПервогоУведомления</name>
     <synonym>

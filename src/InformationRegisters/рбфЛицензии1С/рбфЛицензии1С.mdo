@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e3f4d2c-b7e5-43a4-97e2-4f9b327b2006">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e3f4d2c-b7e5-43a4-97e2-4f9b327b2006">
   <producedTypes>
     <selectionType typeId="59387590-7fe7-4ace-93fc-99a3011b1326" valueTypeId="a8c5d7c3-7fed-4483-a5ad-ea59a0990170"/>
     <listType typeId="8c1e4a25-6ee9-4c30-aad0-51bf5fa2bdef" valueTypeId="b18b9498-a55b-4be9-b58f-103e4dcd3f2c"/>
@@ -14,6 +14,14 @@
     <key>ru</key>
     <value>Лицензии 1С</value>
   </synonym>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Лицензия 1С</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Лицензии 1С</value>
+  </listPresentation>
   <resources uuid="22130442-7fec-4099-a37c-1241d50e9076">
     <name>Продукт</name>
     <synonym>
@@ -26,6 +34,9 @@
         <length>300</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <attributes uuid="0c0ec68b-e681-49cd-a866-9148d3cce5a2">
     <name>ТипЛицензии</name>
@@ -39,6 +50,9 @@
         <length>1000</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="905657e2-5279-4da6-8455-49e4b4434551">
     <name>Привязка</name>
@@ -52,6 +66,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="6e81b00b-f5be-4335-92fd-ee7f9d7aee82">
     <name>РегистрационныйНомер</name>
@@ -65,6 +82,9 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="5c354932-be56-41d3-97b6-514adb79f46e">
     <name>КодПродукта</name>
@@ -78,6 +98,9 @@
         <length>30</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="c189bd6d-c374-4bde-b13c-40641a2ef774">
     <name>ДатаКомплектации</name>
@@ -89,6 +112,9 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="60bfc173-8cb6-4129-9e82-b444a876e370">
     <name>ВладелецЛицензии</name>
@@ -102,6 +128,9 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="eb91dee4-cd19-49fc-bb02-6ca9e65b8077">
     <name>Почта</name>
@@ -115,6 +144,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="597d1b89-071d-4a89-8558-3a112324f9a4">
     <name>Компания</name>
@@ -128,6 +160,9 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="22bc9b87-eb74-4a7a-9be9-5b0720770938">
     <name>ДатаПроверки</name>
@@ -139,6 +174,9 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="5b49ca89-d089-4910-bdd8-d351c9f7642d">
     <name>ОборудованиеСовпадает</name>
@@ -149,6 +187,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="12330957-c1b5-41cd-ab74-478cebb6c081">
     <name>РезультатПроверки</name>
@@ -162,6 +203,9 @@
         <length>1000</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="a6222cd6-d186-4b14-93cd-3e37efb03595">
     <name>Сервер</name>
@@ -175,6 +219,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
   <dimensions uuid="0b87a685-7012-4200-9da6-47a667ef1ae9">
     <name>ФайлЛицензии</name>
@@ -188,5 +235,8 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>

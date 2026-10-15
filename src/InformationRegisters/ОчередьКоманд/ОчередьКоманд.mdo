@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Команда обслуживания</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Очередь команд обслуживания</value>
+  </listPresentation>
   <resources uuid="0d0790ff-cc39-423c-8aa4-8b7bafbd2ea9">
     <name>Команда</name>
     <synonym>

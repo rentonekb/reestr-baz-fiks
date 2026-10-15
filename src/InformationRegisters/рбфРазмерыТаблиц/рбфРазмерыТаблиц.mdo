@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ce4762-ab24-46dd-9c36-31bb0a4a2e54">
+  <producedTypes>
+    <selectionType typeId="f1bda789-8f40-4717-82eb-ec282f595ef7" valueTypeId="5660e3a2-600e-4855-b3e1-c9fb8958f9e6"/>
+    <listType typeId="c5604bd6-fe97-456c-bd98-049ffc13f6d8" valueTypeId="2ac67ea1-a2a1-464d-acae-2d7c0cc674f6"/>
+    <managerType typeId="c6342bd3-eaae-4a87-ae5c-2d6231fa360d" valueTypeId="09c664a4-cfef-4dcc-aa7b-fe9bb5ea4fbb"/>
+    <recordSetType typeId="19c1e38c-137b-480f-950c-632f60d0cf10" valueTypeId="e6082390-f4a9-49bc-b295-ce7aa0f4ffaa"/>
+    <recordKeyType typeId="8110af52-d5e6-429a-9b76-b09a4e54bebe" valueTypeId="c4315f78-e4c7-4832-989c-458031c450b1"/>
+    <recordType typeId="beac792d-368e-4215-88a7-3b314ebd1f30" valueTypeId="87219340-1aab-441f-a1e6-8cfafa8df8bc"/>
+    <recordManagerType typeId="7377fdcf-f5da-4b21-8a32-0411109853f2" valueTypeId="fae0b077-124b-4050-beab-9106341e0768"/>
+  </producedTypes>
+  <name>рбфРазмерыТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры таблиц баз</value>
+  </synonym>
+  <comment>Ежедневный снимок: 10 крупнейших таблиц каждой рабочей и тестовой базы и итоги по файлам</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="0dcaf084-1614-4897-aeb3-1604f32b49a7">
+    <name>РазмерМБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер МБ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="8333fc5d-3d62-4a76-b394-b1fd8dfdf2c5">
+    <name>Строк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="561ab11c-dcc3-4a49-bcd8-2735be1e87ed">
+    <name>ДатаСнимка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата снимка</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d77bedd9-9830-4dae-9f5d-ea8866d34620">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер1с</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="36a28fb0-c108-4bd0-95c1-529b58123e87">
+    <name>ИмяБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы1с</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+  <dimensions uuid="5d3af83d-5f5c-40f1-919f-4ceab752c457">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
