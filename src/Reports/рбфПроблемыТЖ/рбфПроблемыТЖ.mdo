@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afa159ed-2ec3-4b30-a421-8bf560c19e3c">
+  <producedTypes>
+    <objectType typeId="a48d2c6a-f006-457b-b59b-d2c390c0912d" valueTypeId="4e579072-7cbd-440a-a055-caafcf185a06"/>
+    <managerType typeId="6e76d761-b959-43ad-ba67-13062da1aec1" valueTypeId="8ee935d7-4baa-4532-8c33-2ff0fad3b5c3"/>
+  </producedTypes>
+  <name>рбфПроблемыТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проблемы производительности (ТЖ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рбфПроблемыТЖ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d5cc4c4c-9986-4d49-994c-ab73e62ccc95">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсновнаяСхемаКомпоновкиДанных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

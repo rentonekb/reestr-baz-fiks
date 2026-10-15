@@ -20,4 +20,6 @@
   <content>InformationRegister.рбфЛицензии1С</content>
   <content>InformationRegister.рбфСвязиБаз</content>
   <content>Report.рбфРостТаблиц</content>
+  <content>Report.рбфНагрузкаСерверов</content>
+  <content>Report.рбфПроблемыТЖ</content>
 </mdclass:Subsystem>

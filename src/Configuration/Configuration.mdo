@@ -17,6 +17,7 @@
   <subsystems>Subsystem.УправлениеБД</subsystems>
   <roles>Role.рбфЧтениеОтделов</roles>
   <roles>Role.рбфАдминAPI</roles>
+  <roles>Role.рбфАгентМониторинга</roles>
   <commonModules>CommonModule.РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.ПравилаРеестраБаз</commonModules>
   <httpServices>HTTPService.рбфАдмин</httpServices>
@@ -28,6 +29,8 @@
   <scheduledJobs>ScheduledJob.КонтрольСрокаАктуальности</scheduledJobs>
   <catalogs>Catalog.Отдел</catalogs>
   <reports>Report.рбфРостТаблиц</reports>
+  <reports>Report.рбфНагрузкаСерверов</reports>
+  <reports>Report.рбфПроблемыТЖ</reports>
   <informationRegisters>InformationRegister.КластерыПлатформы</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеБаз</informationRegisters>
   <informationRegisters>InformationRegister.ОчередьКоманд</informationRegisters>
@@ -40,4 +43,6 @@
   <informationRegisters>InformationRegister.рбфТипДоАрхива</informationRegisters>
   <informationRegisters>InformationRegister.рбфРазмерыТаблиц</informationRegisters>
   <informationRegisters>InformationRegister.рбфСвязиБаз</informationRegisters>
+  <informationRegisters>InformationRegister.рбфСчетчики</informationRegisters>
+  <informationRegisters>InformationRegister.рбфСобытияТЖ</informationRegisters>
 </mdclass:Configuration>

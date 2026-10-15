@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="462ab3af-dea7-4136-b9fb-658990710455">
+  <producedTypes>
+    <objectType typeId="054cc978-1bcd-4614-a585-334e7a987e27" valueTypeId="25acaa66-2333-45dc-b883-6753c8865576"/>
+    <managerType typeId="04afedbb-c7a4-40a5-bdae-a4935993f057" valueTypeId="aed5fd08-d5de-4865-9834-cf193483d70d"/>
+  </producedTypes>
+  <name>рбфНагрузкаСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нагрузка серверов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рбфНагрузкаСерверов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="900f95c6-004e-4e69-bac1-a8d0a5634af2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсновнаяСхемаКомпоновкиДанных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

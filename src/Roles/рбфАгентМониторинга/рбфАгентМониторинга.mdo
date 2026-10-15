@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35982090-8da8-4b90-883f-174c4a66425d">
+  <name>рбфАгентМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агент мониторинга (отправка замеров в rbf-admin)</value>
+  </synonym>
+</mdclass:Role>
