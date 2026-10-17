@@ -21,6 +21,7 @@
   <content>InformationRegister.рбфСвязиБаз</content>
   <content>Report.рбфРостТаблиц</content>
   <content>CommonForm.рбфОтключениеСотрудника</content>
+  <content>CommonCommand.рбфОтключениеСотрудника</content>
   <content>Report.рбфНагрузкаСерверов</content>
   <content>Report.рбфПроблемыТЖ</content>
 </mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1edf409f-ae85-4512-9eec-7b9295f76343">
+  <name>рбфОтключениеСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключение сотрудника</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Найти сотрудника по фамилии и заблокировать в AD и на MikroTik</value>
+  </toolTip>
+</mdclass:CommonCommand>
