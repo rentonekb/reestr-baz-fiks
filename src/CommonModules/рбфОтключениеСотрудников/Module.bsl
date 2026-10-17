@@ -1,6 +1,6 @@
 // Отключение сотрудника: поиск по фамилии в AD и на MikroTik, блокировка учётки AD,
 // ppp secret, завершение сеансов VPN/RDP/SMB, добавление ящика в архив почты.
-// Внешние действия выполняет скрипт C:\Kirill\OwnerGuard\Offboard-Employee.ps1 на сервере 1С;
+// Внешние действия выполняет скрипт C:\Tools\Offboarding\Offboard-Employee.ps1 на сервере 1С;
 // доступы он берёт из offboard.cred рядом с собой, в конфигурации паролей нет.
 // Доступно только полным пользователям.
 
@@ -142,7 +142,7 @@
 	Запись.Закрыть();
 
 	КоманднаяСтрока = СтрШаблон("powershell.exe -NoProfile -ExecutionPolicy Bypass -File ""%1"" -In ""%2"" -Out ""%3""",
-		"C:\Kirill\OwnerGuard\Offboard-Employee.ps1", ФайлЗапроса, ФайлОтвета);
+		"C:\Tools\Offboarding\Offboard-Employee.ps1", ФайлЗапроса, ФайлОтвета);
 	КодВозврата = 0;
 	ЗапуститьПриложение(КоманднаяСтрока, , Истина, КодВозврата);
 
