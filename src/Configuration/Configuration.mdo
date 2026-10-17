@@ -20,6 +20,7 @@
   <roles>Role.рбфАгентМониторинга</roles>
   <commonModules>CommonModule.РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.ПравилаРеестраБаз</commonModules>
+  <commonModules>CommonModule.рбфОтключениеСотрудников</commonModules>
   <httpServices>HTTPService.рбфАдмин</httpServices>
   <scheduledJobs>ScheduledJob.ОбновлениеКластеров</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольДоступностиБаз</scheduledJobs>
@@ -27,6 +28,7 @@
   <scheduledJobs>ScheduledJob.ОбработчикКомандОбслуживания</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольВладельцевБаз</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольСрокаАктуальности</scheduledJobs>
+  <commonForms>CommonForm.рбфОтключениеСотрудника</commonForms>
   <catalogs>Catalog.Отдел</catalogs>
   <reports>Report.рбфРостТаблиц</reports>
   <reports>Report.рбфНагрузкаСерверов</reports>
