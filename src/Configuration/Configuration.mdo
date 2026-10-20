@@ -48,4 +48,5 @@
   <informationRegisters>InformationRegister.рбфСвязиБаз</informationRegisters>
   <informationRegisters>InformationRegister.рбфСчетчики</informationRegisters>
   <informationRegisters>InformationRegister.рбфСобытияТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфЗаданияАнализаТЖ</informationRegisters>
 </mdclass:Configuration>

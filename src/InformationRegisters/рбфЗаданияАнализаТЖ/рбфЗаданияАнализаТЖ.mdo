@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6cd4de8-7340-45f6-93ab-17101d360dfe">
+  <producedTypes>
+    <selectionType typeId="029aa3bc-d12b-4212-8fb0-34a00f2d3c4a" valueTypeId="af30ecba-e67a-4960-8696-ced572d96a84"/>
+    <listType typeId="87968177-e8ec-4a3d-b037-3a75d5ec3b05" valueTypeId="9a536661-f5c3-4373-adcd-d8ace470c395"/>
+    <managerType typeId="6c6f9c15-ef2a-4d02-9909-9737d22ed1ba" valueTypeId="43728d93-70dd-48a5-8c95-0528234728ae"/>
+    <recordSetType typeId="c0efce52-acdd-4923-b8b4-b86e6b3a8c73" valueTypeId="547ffb81-b2a7-41a2-b290-31fba7ab17fd"/>
+    <recordKeyType typeId="8e29c1ea-5fbd-407c-ad63-0fc93ac69889" valueTypeId="72881c28-0c3b-4f9b-8a56-fe7ad87d228d"/>
+    <recordType typeId="553a0b49-3fdf-4036-947f-cac4d213e181" valueTypeId="e4376ce8-4047-42a1-ac76-3a2af4b643cb"/>
+    <recordManagerType typeId="f4151bd7-2985-4355-833f-a72c3865ff86" valueTypeId="30429bc3-e163-4512-a900-09267824acf0"/>
+  </producedTypes>
+  <name>рбфЗаданияАнализаТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания анализа ТЖ</value>
+  </synonym>
+  <comment>Очередь и результаты анализа ТЖ: задание ставит base_list, исполнитель на 88.44 (tj-analyzer + Claude CLI) берет его через rbf-admin/tj-job и возвращает rbf-admin/tj-result</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fabb858b-f4fa-4123-9e15-00a94fe7b4d6">
+    <name>Создано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создано</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="6a04e060-dfb7-4eea-87b3-1494bd1fb1ed">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="8205aefa-7d50-44b1-a1a5-97482de96873">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог логов ТЖ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="42d892de-b860-46c0-9848-68e2855c2e5b">
+    <name>ПериодС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="65a25061-077e-4eb1-88d8-c67ead50ea0b">
+    <name>ПериодПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="41f1e1b7-96ed-41d9-8e96-b4cb65d7b572">
+    <name>ПробныйПрогон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пробный прогон</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="256251fb-ad1b-42ba-9354-f79b6687c1b1">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="d89d99bf-d178-42a1-9290-d18b6159b95a">
+    <name>Взято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взято в работу</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="c9b3260e-1a78-4841-a10d-45a6b29c9c58">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="01ce4e10-911a-4132-a848-b2cc525db1eb">
+    <name>Сводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="a848fb9d-4d7e-4dd5-afbb-f1a15d873235">
+    <name>Диагноз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагноз</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="48d76265-a60c-447c-9ef5-466d8e2a6796">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <dimensions uuid="1cb9a2ea-68a0-49f6-bd0f-2c118bf21260">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>
