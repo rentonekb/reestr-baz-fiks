@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd203bb-c1af-473a-949c-47fd3b1ec98d">
+  <name>рбфАнализБлокировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировки</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced864c9-0272-4620-841e-d756369248ce">
+  <name>рбфАнализЗапросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a02bc42-19ea-4706-8df9-1cb4e98efa6f">
+  <name>рбфАнализОшибкиТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки ТЖ</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7518b09e-306d-40df-9881-129aa7355e95">
+  <name>рбфАнализОшибкиТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки ТЖ</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Исключения и ошибки запросов из ТЖ, сгруппированные по тексту</value>
+  </toolTip>
+</mdclass:CommonCommand>
