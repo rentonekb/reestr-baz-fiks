@@ -15,12 +15,15 @@
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <subsystems>Subsystem.УправлениеБД</subsystems>
+  <subsystems>Subsystem.рбфАнализ</subsystems>
   <roles>Role.рбфЧтениеОтделов</roles>
   <roles>Role.рбфАдминAPI</roles>
   <roles>Role.рбфАгентМониторинга</roles>
   <commonModules>CommonModule.РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.ПравилаРеестраБаз</commonModules>
   <commonModules>CommonModule.рбфОтключениеСотрудников</commonModules>
+  <commonModules>CommonModule.рбфАнализСервер</commonModules>
+  <commonModules>CommonModule.рбфАнализКлиент</commonModules>
   <httpServices>HTTPService.рбфАдмин</httpServices>
   <scheduledJobs>ScheduledJob.ОбновлениеКластеров</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольДоступностиБаз</scheduledJobs>
@@ -29,7 +32,18 @@
   <scheduledJobs>ScheduledJob.КонтрольВладельцевБаз</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольСрокаАктуальности</scheduledJobs>
   <commonCommands>CommonCommand.рбфОтключениеСотрудника</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализГрафик</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализЗапросы</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализБлокировки</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализВзаимоблокировки</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализОшибкиТЖ</commonCommands>
+  <commonCommands>CommonCommand.рбфАнализИИ</commonCommands>
   <commonForms>CommonForm.рбфОтключениеСотрудника</commonForms>
+  <commonForms>CommonForm.рбфАнализГрафик</commonForms>
+  <commonForms>CommonForm.рбфАнализЗапросы</commonForms>
+  <commonForms>CommonForm.рбфАнализБлокировки</commonForms>
+  <commonForms>CommonForm.рбфАнализОшибкиТЖ</commonForms>
+  <commonForms>CommonForm.рбфАнализИИ</commonForms>
   <catalogs>Catalog.Отдел</catalogs>
   <reports>Report.рбфРостТаблиц</reports>
   <reports>Report.рбфНагрузкаСерверов</reports>

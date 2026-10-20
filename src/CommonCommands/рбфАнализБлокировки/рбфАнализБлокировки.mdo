@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbf87da3-40f8-44a6-81c3-8383dde240f7">
+  <name>рбфАнализБлокировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировки</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Ожидания и таймауты управляемых блокировок (TLOCK/TTIMEOUT)</value>
+  </toolTip>
+</mdclass:CommonCommand>

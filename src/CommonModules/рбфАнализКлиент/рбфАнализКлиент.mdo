@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eb8477c-7c59-421a-b539-d8bc95bf0ae6">
+  <name>рбфАнализКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ производительности (клиент)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

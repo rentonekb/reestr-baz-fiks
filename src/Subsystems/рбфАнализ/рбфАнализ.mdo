@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e8350cd-77fa-4189-9a22-ba2fa8693b8f">
+  <name>рбфАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ</value>
+  </synonym>
+  <comment>Анализ производительности по ТЖ и счётчикам агентов (по образцу 1С-Монитора)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Запросы, блокировки, ошибки ТЖ, график показателей и ИИ-анализ ТЖ</value>
+  </explanation>
+  <content>CommonCommand.рбфАнализГрафик</content>
+  <content>CommonCommand.рбфАнализЗапросы</content>
+  <content>CommonCommand.рбфАнализБлокировки</content>
+  <content>CommonCommand.рбфАнализВзаимоблокировки</content>
+  <content>CommonCommand.рбфАнализОшибкиТЖ</content>
+  <content>CommonCommand.рбфАнализИИ</content>
+  <content>CommonForm.рбфАнализГрафик</content>
+  <content>CommonForm.рбфАнализЗапросы</content>
+  <content>CommonForm.рбфАнализБлокировки</content>
+  <content>CommonForm.рбфАнализОшибкиТЖ</content>
+  <content>CommonForm.рбфАнализИИ</content>
+</mdclass:Subsystem>
