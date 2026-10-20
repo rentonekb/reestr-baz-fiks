@@ -38,12 +38,14 @@
   <commonCommands>CommonCommand.рбфАнализВзаимоблокировки</commonCommands>
   <commonCommands>CommonCommand.рбфАнализОшибкиТЖ</commonCommands>
   <commonCommands>CommonCommand.рбфАнализИИ</commonCommands>
+  <commonCommands>CommonCommand.рбфНастройкаТЖ</commonCommands>
   <commonForms>CommonForm.рбфОтключениеСотрудника</commonForms>
   <commonForms>CommonForm.рбфАнализГрафик</commonForms>
   <commonForms>CommonForm.рбфАнализЗапросы</commonForms>
   <commonForms>CommonForm.рбфАнализБлокировки</commonForms>
   <commonForms>CommonForm.рбфАнализОшибкиТЖ</commonForms>
   <commonForms>CommonForm.рбфАнализИИ</commonForms>
+  <commonForms>CommonForm.рбфНастройкаТЖ</commonForms>
   <catalogs>Catalog.Отдел</catalogs>
   <reports>Report.рбфРостТаблиц</reports>
   <reports>Report.рбфНагрузкаСерверов</reports>
@@ -63,4 +65,5 @@
   <informationRegisters>InformationRegister.рбфСчетчики</informationRegisters>
   <informationRegisters>InformationRegister.рбфСобытияТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфЗаданияАнализаТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфНастройкиТЖ</informationRegisters>
 </mdclass:Configuration>

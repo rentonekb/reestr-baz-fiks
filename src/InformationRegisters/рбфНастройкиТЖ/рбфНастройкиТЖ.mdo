@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69ea925-20cc-4dfd-a91e-cc25382a0b83">
+  <producedTypes>
+    <selectionType typeId="2dd578f5-acb1-4b62-ad70-37f110c51c07" valueTypeId="43c9f495-06d8-4a19-8178-0482bcce16d0"/>
+    <listType typeId="a4c9e421-39bc-4534-b744-16bf968f47d7" valueTypeId="71fa83c1-b7c4-489c-8aac-aac2e730bc5b"/>
+    <managerType typeId="e543f3dd-9b15-4e7f-b2cd-e8b3309adc4b" valueTypeId="3a0265f1-5983-46de-a1cb-22f1aa9e75fb"/>
+    <recordSetType typeId="d5a5db3e-1294-4006-8f28-6edc97b96731" valueTypeId="6125dd5c-240e-4ab4-9a6b-10621eeb7cf0"/>
+    <recordKeyType typeId="ec7d90cd-1448-4023-a410-dccc06814c84" valueTypeId="340ad292-03a8-4559-83db-62fc29c2f16f"/>
+    <recordType typeId="c9eb7b34-3762-49cd-8793-b7a2fd3475fe" valueTypeId="661481fb-2a4d-422d-bbb6-e2dbfd3b9aaf"/>
+    <recordManagerType typeId="7882b137-6d54-4e03-a258-c350e845dd28" valueTypeId="8ad72650-c168-4870-9a5f-f67327ac3282"/>
+  </producedTypes>
+  <name>рбфНастройкиТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ТЖ</value>
+  </synonym>
+  <comment>Показатели технологического журнала по базам (как в 1С-Мониторе); по ним ПравилаРеестраБаз.СформироватьLogcfg строит logcfg.xml сервера. Строка с пустым ИмяБазы1С - настройки сервера (Сервер1С - имя компьютера без порта): дамп процесса и текст logcfg к применению</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="562ff298-af25-451e-bcda-f038c797f4e8">
+    <name>ДолгийЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгий запрос</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="e22d0d2a-4c9b-407f-88c6-2a95b0dedb3a">
+    <name>ДолгийЗапросПорог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгий запрос: порог, с</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="9e9aad01-ea66-45eb-b366-5ff86621364a">
+    <name>ОжиданиеНаБлокировке1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание на блокировке 1С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="e8e4f366-e16d-48ca-9714-2bf1cb4f4f5b">
+    <name>ОжиданиеНаБлокировкеСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание на блокировке СУБД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="e7eed8dc-20c7-46b7-be3d-33539b879eac">
+    <name>Взаимоблокировка1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимоблокировка 1С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="5f9b9271-a948-42e0-a9fa-dfeef2994a09">
+    <name>ВзаимоблокировкаСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимоблокировка СУБД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="4b809c44-d75a-4216-9874-f2454745f4b2">
+    <name>ОшибкаТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка ТЖ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="6a7cf384-a110-4dab-9559-beb05bcca8ae">
+    <name>Транзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="200b0eb9-276e-4265-ae09-32e618fb336f">
+    <name>СерверныйВызов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверный вызов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="ff79c8c8-0283-42d6-8284-8268514451e5">
+    <name>СерверныйВызовПорог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверный вызов: порог, с</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="05c468bc-a6ed-47c2-8b73-0cb38320abc8">
+    <name>ДампПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дамп процесса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <resources uuid="0a15093d-18a3-4165-8771-17ef623336df">
+    <name>КаталогЛогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог логов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="d1cea0ee-3e78-44a1-939b-2d7c881c5e36">
+    <name>Глубина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина хранения, ч</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="c866a214-51d9-4e84-8dfc-3e020e245023">
+    <name>ТекстLogcfg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст logcfg к применению</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="f540ddea-9c9d-4e14-9825-40ff1aac8daf">
+    <name>Изменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="eaf9cef3-ed0e-484e-86da-e43a935d1473">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="8e8236f5-d059-4126-aecf-5192836bbfd2">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="fd92b7f5-0e46-4a88-8b1a-ed1c80d8256e">
+    <name>ИмяБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

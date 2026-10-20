@@ -10,7 +10,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>
     <key>ru</key>
-    <value>Запросы, блокировки, ошибки ТЖ, график показателей и ИИ-анализ ТЖ</value>
+    <value>Запросы, блокировки, ошибки ТЖ, график показателей, ИИ-анализ и настройка ТЖ</value>
   </explanation>
   <content>CommonCommand.рбфАнализГрафик</content>
   <content>CommonCommand.рбфАнализЗапросы</content>
@@ -18,9 +18,12 @@
   <content>CommonCommand.рбфАнализВзаимоблокировки</content>
   <content>CommonCommand.рбфАнализОшибкиТЖ</content>
   <content>CommonCommand.рбфАнализИИ</content>
+  <content>CommonCommand.рбфНастройкаТЖ</content>
   <content>CommonForm.рбфАнализГрафик</content>
   <content>CommonForm.рбфАнализЗапросы</content>
   <content>CommonForm.рбфАнализБлокировки</content>
   <content>CommonForm.рбфАнализОшибкиТЖ</content>
   <content>CommonForm.рбфАнализИИ</content>
+  <content>CommonForm.рбфНастройкаТЖ</content>
+  <content>InformationRegister.рбфНастройкиТЖ</content>
 </mdclass:Subsystem>
