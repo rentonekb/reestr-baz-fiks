@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85ea6d30-3265-4ef4-a76d-6c7e1b0dc652">
+  <producedTypes>
+    <selectionType typeId="c142a3d4-cb3b-49f0-9092-a1472b440c67" valueTypeId="6cc19d7d-c809-453e-96c3-a277aea8f08a"/>
+    <listType typeId="b212a7a7-a16d-4542-a72c-32cf04ee485f" valueTypeId="e11eba5a-e81e-41b1-8abc-2ae801d66e58"/>
+    <managerType typeId="a564cb54-38ab-4900-837b-ffcc0e06dbbb" valueTypeId="3395a2f1-baa4-4d31-a148-ff70af3a17d3"/>
+    <recordSetType typeId="a29d8ae8-b223-43ae-985e-806bae19ff3e" valueTypeId="ecc9d2d4-fc18-4753-aa3a-50c5b60ef490"/>
+    <recordKeyType typeId="4ee067bf-8b51-492a-a224-7516ec3e945a" valueTypeId="bf1a7821-1189-415f-b7c4-7db42b52c43e"/>
+    <recordType typeId="be73cc4f-b54f-44c6-a4da-4f9814450612" valueTypeId="9c561f4a-f79d-4ba5-9daf-491dbec314f5"/>
+    <recordManagerType typeId="82f066a3-0c83-4ddd-8a52-800714c4388b" valueTypeId="b89d7798-ae94-4ae5-a1ab-36cd908eff40"/>
+  </producedTypes>
+  <name>рбфВыполненияТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнения ТЖ</value>
+  </synonym>
+  <comment>Отдельные события технологического журнала (запросы, блокировки, вызовы, исключения) для раздела «Анализ»; приходят через rbf-admin/tj-events (tj-analyzer export-events или агент). Ид - хеш файл+смещение у отправителя. Момент - микросекунды от 01.01.2000 для сравнения и сортировки</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="871ba891-3a36-4a09-99c5-dc758f3b7ae7">
+    <name>ДлительностьМс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность, мс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="b39d7fc0-7c66-4bcf-a4df-183cc511ba54">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время (окончание)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="efe12124-06eb-406b-bf38-a9069c71d8ec">
+    <name>Момент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент, мкс от 2000 г.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="1468a7e4-ea61-4749-a17f-d9034ff48e7a">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="1aa543b0-5a91-4e43-a6cd-63f18b51de39">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="bb755981-ccbc-44ea-91b7-d9711b5dea4a">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="db395af1-91e4-467f-89cd-bfc07d04a41b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь (Usr)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="e7427d1b-8177-46c5-8439-3c309e03ff6e">
+    <name>СеансИд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеанс (SessionID)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="0c5bacca-ddca-4f57-ab8f-2975e8eb11b6">
+    <name>СоединениеИд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соединение (t:connectID)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="1c2ddd93-fbbc-4c9a-8872-2df2dc0d66a3">
+    <name>КлиентИд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент (t:clientID)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="28c9817b-dd04-465d-8134-72f39a3ac31c">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение (t:applicationName)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="cb166ad7-7cad-456b-96cf-38a68cfdca39">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер (t:computerName)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="18101301-7f4f-4618-8366-e0ce09122943">
+    <name>ПроцессСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс СУБД (dbpid)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="87638c91-8368-4ecc-b25e-ad9f91a9e2ab">
+    <name>Транзакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзакция (trans)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="694d08bd-9570-4872-a893-1d0579d398e0">
+    <name>Строк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строк (Rows / RowsAffected)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="28ba5146-d837-41db-adc8-fa0a235dda98">
+    <name>ФункцияSDBL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция SDBL (Func)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="e96d7938-a691-4baf-a315-022cc4c0935f">
+    <name>КонтекстПолный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст (весь стек)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="da850339-8f78-4781-ab39-69018fe1ff43">
+    <name>КонтекстТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст: точка входа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ca9d848d-fffd-4abf-ac10-60dc4dca2129">
+    <name>КонтекстСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст: строка выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="382e665c-be3e-4ab2-a73f-15059391806b">
+    <name>ТекстЗапроса1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="79d9faa1-d0b5-4216-8c36-d0e8941ee6f0">
+    <name>ТекстSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст SQL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="6c3f9997-c424-48ab-8b87-5a34c5bf72d5">
+    <name>ШаблонХеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш шаблона запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a5581653-a04f-43b6-99e6-ac7d6ca35d39">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный запрос платформы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="9ec4316b-1405-479e-9638-3d11db9361b4">
+    <name>Пространства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировки (Locks)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="1171004a-55a2-4dda-b2a0-14091ef6f003">
+    <name>Пространство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пространство блокировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="9f100898-9f94-48e3-834a-f34af6a23ff9">
+    <name>ЖдалСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ждал соединения (WaitConnections)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="60361587-c04a-40a0-b744-13d5438bd657">
+    <name>ПересеченияВзаимоблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>DeadlockConnectionIntersections</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="dbdc192e-2413-4582-b02a-568999d65e6e">
+    <name>ВиновникИд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник: событие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="683d24b4-1e8d-42a0-9999-b2188e7256ea">
+    <name>ВиновникСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник: соединение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="df0e2236-5209-42c9-9bda-a3463d940651">
+    <name>ВиновникПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник: пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="62571e85-ef11-44b3-adb7-f55b89d00dfa">
+    <name>ВиновникСеанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник: сеанс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ee7bdea6-b2dd-4f9e-a80f-c290c6dda497">
+    <name>ВиновникНачалоТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виновник: начало транзакции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="87756740-b4db-4433-8d6c-76a2e52fa964">
+    <name>Исключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="358b8332-80d6-4ec7-bc6e-6bc81de7b01a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание исключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="dc959645-576b-4208-be5e-63fc21820355">
+    <name>Получено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <dimensions uuid="db68b57c-beb9-4e56-98b2-fbe0d59bfa1d">
+    <name>Ид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

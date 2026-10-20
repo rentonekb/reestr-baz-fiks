@@ -689,6 +689,11 @@
 				// @skip-check query-in-loop - команды очереди выполняются по одной
 				Результат = ЗаписатьLogcfgНаСервер(Выборка.Параметр);
 
+			ИначеЕсли Выборка.Команда = "ОбновитьИменаТаблиц" Тогда
+				// карта имён таблиц СУБД базы base_list для раздела «Анализ»
+				// @skip-check query-in-loop - команды очереди выполняются по одной
+				Результат = "записано имён: " + рбфСобытияТЖСервер.ОбновитьИменаТаблицТекущейБазы();
+
 			Иначе
 				Результат = "неизвестная команда";
 			КонецЕсли;
@@ -2103,6 +2108,8 @@
 // в каталоге <Каталог>\<база>_<порт>\<Вид>, фильтр p:processName = имя базы и только
 // нужные свойства. logcfg.xml один на компьютер, поэтому в файл входят базы всех
 // кластеров сервера. Пороги длительности в фильтре - в десятитысячных секунды, как у Монитора.
+// Свойства пишутся с префиксами, как они называются в ТЖ (t:connectID, p:processName); SessionID
+// есть во всех логах - по нему событие ТЖ связывается с сеансом в журнале регистрации.
 //
 // Параметры:
 //  Сервер - Строка - имя компьютера сервера 1С без порта.
@@ -2190,8 +2197,10 @@
 			Порог = Формат(Окр(Выборка.ДолгийЗапросПорог * 10000), "ЧГ=");
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "ge", "duration", Порог));
+			// SDBL несёт свойство Sdbl - текст запроса на языке 1С, по нему раздел «Анализ» показывает запрос
+			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "ge", "duration", Порог));
 			ЗаписатьЛогТЖ(Запись, Папка + "Queries", Глубина, База, События,
-				"processName,clientID,applicationName,computerName,connectID,Context,Usr,dbpid,Sql,trans,Rows,RowsAffected,DataBase,DBCopy");
+				"p:processName,t:clientID,t:applicationName,t:computerName,t:connectID,SessionID,Context,Usr,dbpid,Sql,Sdbl,Func,trans,Rows,RowsAffected,DataBase,DBCopy");
 		КонецЕсли;
 
 		Если Выборка.Транзакции Тогда
@@ -2199,7 +2208,7 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "eq", "Func", "CommitTransaction"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "eq", "Func", "RollbackTransaction"));
 			ЗаписатьЛогТЖ(Запись, Папка + "Transactions", Глубина, База, События,
-				"processName,clientID,connectID,Usr,lka,Func");
+				"p:processName,t:clientID,t:connectID,SessionID,Usr,lka,Func,Context");
 		КонецЕсли;
 
 		// TLOCK пишется без порога длительности: иначе нет цепочки «кто держал» для взаимоблокировок
@@ -2208,7 +2217,7 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TLOCK"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TTIMEOUT"));
 			ЗаписатьЛогТЖ(Запись, Папка + "1C_Locks", Глубина, База, События,
-				"processName,clientID,applicationName,computerName,connectID,Context,Usr,Locks,escalating,WaitConnections");
+				"p:processName,t:clientID,t:applicationName,t:computerName,t:connectID,SessionID,Context,Usr,Locks,escalating,WaitConnections,trans");
 		КонецЕсли;
 
 		Если Выборка.ОжиданиеНаБлокировкеСУБД Тогда
@@ -2218,14 +2227,14 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "like", "Sql", "DELETE% dbo._%"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "like", "Sql", "INSERT INTO dbo._%"));
 			ЗаписатьЛогТЖ(Запись, Папка + "SQL_Locks", Глубина, База, События,
-				"processName,computerName,connectID,applicationName,Context,Usr,dbpid,Sql,lkp,lksrc,clientID");
+				"p:processName,t:computerName,t:connectID,t:applicationName,t:clientID,SessionID,Context,Usr,dbpid,Sql,trans,lkp,lksrc");
 		КонецЕсли;
 
 		Если Выборка.Взаимоблокировка1С Тогда
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TDEADLOCK"));
 			ЗаписатьЛогТЖ(Запись, Папка + "1C_Deadlocks", Глубина, База, События,
-				"processName,computerName,connectID,Context,Usr,DeadlockConnectionIntersections");
+				"p:processName,t:computerName,t:connectID,t:clientID,SessionID,Context,Usr,DeadlockConnectionIntersections");
 		КонецЕсли;
 		// взаимоблокировки СУБД разбираются по SQL_Locks и <dbmslocks/>, отдельного лога у Монитора нет
 		Если Выборка.ВзаимоблокировкаСУБД Тогда
@@ -2249,7 +2258,7 @@
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "CALL", "ge", "duration", Порог));
 			ЗаписатьЛогТЖ(Запись, Папка + "Calls", Глубина, База, События,
-				"processName,clientID,applicationName,computerName,connectID,Context,Usr,Memory,MemoryPeak,InBytes,OutBytes,CpuTime");
+				"p:processName,t:clientID,t:applicationName,t:computerName,t:connectID,SessionID,Context,Usr,Memory,MemoryPeak,InBytes,OutBytes,CpuTime");
 		КонецЕсли;
 
 	КонецЦикла;
@@ -2529,6 +2538,14 @@
 	Сейчас = ТекущаяДатаСеанса();
 	ОчиститьСтарыеЗамеры("рбфСчетчики", "Время", "Сервер", Сейчас - Настройка("ХранитьСчетчикиДней", 90) * 86400);
 	ОчиститьСтарыеЗамеры("рбфСобытияТЖ", "Час", "Сервер", Сейчас - Настройка("ХранитьСобытияТЖДней", 60) * 86400);
+	// детальные события ТЖ раздела «Анализ» и карта имён таблиц своей базы
+	Попытка
+		рбфСобытияТЖСервер.ОчиститьВыполненияТЖ();
+		рбфСобытияТЖСервер.ОбновитьИменаТаблицТекущейБазы();
+	Исключение
+		ЗаписьЖурналаРегистрации("ПравилаРеестра.Мониторинг", УровеньЖурналаРегистрации.Ошибка, , ,
+			ОбработкаОшибок.ПодробноеПредставлениеОшибки(ИнформацияОбОшибке()));
+	КонецПопытки;
 
 	Запрос = Новый Запрос;
 	Запрос.Текст =

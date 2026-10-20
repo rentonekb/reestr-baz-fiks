@@ -24,6 +24,7 @@
   <commonModules>CommonModule.рбфОтключениеСотрудников</commonModules>
   <commonModules>CommonModule.рбфАнализСервер</commonModules>
   <commonModules>CommonModule.рбфАнализКлиент</commonModules>
+  <commonModules>CommonModule.рбфСобытияТЖСервер</commonModules>
   <httpServices>HTTPService.рбфАдмин</httpServices>
   <scheduledJobs>ScheduledJob.ОбновлениеКластеров</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольДоступностиБаз</scheduledJobs>
@@ -66,4 +67,6 @@
   <informationRegisters>InformationRegister.рбфСобытияТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфЗаданияАнализаТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфНастройкиТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфВыполненияТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфИменаТаблицБаз</informationRegisters>
 </mdclass:Configuration>
