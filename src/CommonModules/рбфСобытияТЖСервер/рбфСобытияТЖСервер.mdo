@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad0aad1f-86d3-4cad-a07c-4eb3a5e6f23d">
+  <name>рбфСобытияТЖСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>События ТЖ (сервер)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb2512ec-0d27-4b91-a190-ef1dc3b078b7">
+  <producedTypes>
+    <selectionType typeId="b98649e1-67cc-4d46-b088-5348439a8017" valueTypeId="7eb027c5-dc83-40c0-b270-7f106046a2ab"/>
+    <listType typeId="eb38f34d-5e81-4823-95e3-f11beed27457" valueTypeId="161279ae-5424-4639-9425-178441ee6b6d"/>
+    <managerType typeId="8785c8de-7fa8-43f0-a9fa-91b480e038e2" valueTypeId="c672c6f2-3289-44ac-b41b-1683f1bb682b"/>
+    <recordSetType typeId="8d057ac6-954a-4a11-857f-d5a46a27c210" valueTypeId="f26b8aca-5ac5-42dc-b40c-9e4c8fd4086c"/>
+    <recordKeyType typeId="486ca5c3-2b82-4d26-b733-668a985634be" valueTypeId="2da06deb-5f7d-451e-b092-f9c646119a4e"/>
+    <recordType typeId="128121c7-adc0-4e1e-9ade-030824405321" valueTypeId="c594b88e-d583-4221-bbde-99cb1cccf799"/>
+    <recordManagerType typeId="a9bff9c9-2b7b-463a-affe-55c2bc3ec5e0" valueTypeId="663648a6-c5f6-49c8-b693-9ff12a444d5b"/>
+  </producedTypes>
+  <name>рбфИменаТаблицБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена таблиц баз</value>
+  </synonym>
+  <comment>Карта имён хранения таблиц СУБД (_Reference139) в имена метаданных (Справочник.Контрагенты) по базам: для текста запросов и пространств блокировок в разделе «Анализ». Своя база заполняется ПолучитьСтруктуруХраненияБазыДанных, остальные - через rbf-admin/tj-storage. ИмяХранения - в верхнем регистре</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d8e9557b-daa5-4a60-a8c2-24504fb523d2">
+    <name>Метаданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="c1a6498d-0eb3-4ad3-a218-7f004fa6672b">
+    <name>Обновлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <dimensions uuid="cdea8bc0-33eb-4ef2-99fa-38093280a15b">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="ecd36e66-5fdc-4f01-b4d4-b535b1fe9446">
+    <name>ИмяХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>
