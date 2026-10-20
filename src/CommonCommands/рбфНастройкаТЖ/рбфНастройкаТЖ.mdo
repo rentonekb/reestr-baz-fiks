@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73330679-35ff-417f-9a94-09f0c87cd21a">
+  <name>рбфНастройкаТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка ТЖ</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Показатели ТЖ по базам и формирование logcfg.xml сервера (как в 1С-Мониторе)</value>
+  </toolTip>
+</mdclass:CommonCommand>
