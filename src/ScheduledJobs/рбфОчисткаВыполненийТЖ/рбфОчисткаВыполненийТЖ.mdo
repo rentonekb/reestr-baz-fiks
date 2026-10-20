@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfabaa84-e38a-4723-adab-604df6250f18">
+  <name>рбфОчисткаВыполненийТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка выполнений ТЖ</value>
+  </synonym>
+  <methodName>CommonModule.ПравилаРеестраБаз.ОчисткаВыполненийТЖ</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

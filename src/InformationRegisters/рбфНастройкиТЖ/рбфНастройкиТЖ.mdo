@@ -197,6 +197,30 @@
       </stringQualifiers>
     </type>
   </resources>
+  <resources uuid="f912018d-51d9-4f48-a571-826839d3ab6b">
+    <name>ГлубинаВыполненийДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина хранения выполнений, дн</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="32d0d8ff-d8af-4fbc-ab6e-cbc2aea04972">
+    <name>СлужебныеЗапросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные запросы (подстроки по строке)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
   <dimensions uuid="8e8236f5-d059-4126-aecf-5192836bbfd2">
     <name>Сервер1С</name>
     <synonym>
