@@ -384,6 +384,59 @@
       </stringQualifiers>
     </type>
   </attributes>
+  <attributes uuid="83173bfd-ee7b-4bbe-b023-914e1d2a5628">
+    <name>БлокирующийSpid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирующий spid</value>
+    </synonym>
+    <comment>SQLBLOCK, SQLDEADLOCK: spid блокирующего процесса SQL Server</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="9b9c19dd-e41e-4d2f-8bd9-3e98e2a4fb11">
+    <name>РесурсОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс ожидания</value>
+    </synonym>
+    <comment>SQLBLOCK, SQLDEADLOCK: "&lt;таблица хранения>|&lt;waitresource>", таблица может быть пустой</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="a31ae640-bd26-4f18-9ad6-fed03b3288c4">
+    <name>РежимБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим блокировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="071f196a-590e-4a31-8290-a1626e564bf4">
+    <name>ТекстSQLВиновника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст SQL виновника</value>
+    </synonym>
+    <comment>SQLBLOCK, SQLDEADLOCK: inputbuf блокирующего процесса (другого участника)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
   <dimensions uuid="3d683e06-ad81-4e15-8049-a5023c3d33e8">
     <name>Ид</name>
     <synonym>
