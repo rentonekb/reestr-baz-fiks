@@ -2247,12 +2247,12 @@
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "ge", "duration", Порог));
 			ЗаписатьЛогТЖ(Запись, Папка + "Queries", Глубина, База, События,
-				"processName,SessionID,clientID,applicationName,computerName,connectID,Context,Usr,dbpid,Sql,trans,Rows,RowsAffected,DataBase,DBCopy");
+				"p:processName,SessionID,t:clientID,t:applicationName,t:computerName,t:connectID,Context,Usr,dbpid,Sql,trans,Rows,RowsAffected,DataBase,DBCopy");
 			// текст запроса на языке 1С (свойство Sdbl); отдельного порога в настройках нет - тот же, что у DBMSSQL
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "ge", "duration", Порог));
 			ЗаписатьЛогТЖ(Запись, Папка + "Queries1C", Глубина, База, События,
-				"processName,SessionID,clientID,applicationName,computerName,connectID,Context,Usr,trans,Rows,Func,Sdbl");
+				"p:processName,SessionID,t:clientID,t:applicationName,t:computerName,t:connectID,Context,Usr,trans,Rows,Func,Sdbl");
 		КонецЕсли;
 
 		Если Выборка.Транзакции Тогда
@@ -2260,7 +2260,7 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "eq", "Func", "CommitTransaction"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "SDBL", "eq", "Func", "RollbackTransaction"));
 			ЗаписатьЛогТЖ(Запись, Папка + "Transactions", Глубина, База, События,
-				"processName,SessionID,clientID,connectID,Usr,lka,Func");
+				"p:processName,SessionID,t:clientID,t:connectID,Usr,lka,Func");
 		КонецЕсли;
 
 		// TLOCK пишется без порога длительности: иначе нет цепочки «кто держал» для взаимоблокировок
@@ -2269,7 +2269,7 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TLOCK"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TTIMEOUT"));
 			ЗаписатьЛогТЖ(Запись, Папка + "1C_Locks", Глубина, База, События,
-				"processName,SessionID,clientID,applicationName,computerName,connectID,Context,Usr,Locks,escalating,WaitConnections");
+				"p:processName,SessionID,t:clientID,t:applicationName,t:computerName,t:connectID,Context,Usr,Locks,escalating,WaitConnections");
 		КонецЕсли;
 
 		Если Выборка.ОжиданиеНаБлокировкеСУБД Тогда
@@ -2279,14 +2279,14 @@
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "like", "Sql", "DELETE% dbo._%"));
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "DBMSSQL", "like", "Sql", "INSERT INTO dbo._%"));
 			ЗаписатьЛогТЖ(Запись, Папка + "SQL_Locks", Глубина, База, События,
-				"processName,SessionID,computerName,connectID,applicationName,Context,Usr,dbpid,Sql,lkp,lksrc,clientID");
+				"p:processName,SessionID,t:computerName,t:connectID,t:applicationName,Context,Usr,dbpid,Sql,lkp,lksrc,t:clientID");
 		КонецЕсли;
 
 		Если Выборка.Взаимоблокировка1С Тогда
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "TDEADLOCK"));
 			ЗаписатьЛогТЖ(Запись, Папка + "1C_Deadlocks", Глубина, База, События,
-				"processName,SessionID,computerName,connectID,Context,Usr,DeadlockConnectionIntersections");
+				"p:processName,SessionID,t:computerName,t:connectID,Context,Usr,DeadlockConnectionIntersections");
 		КонецЕсли;
 		// взаимоблокировки СУБД разбираются по SQL_Locks и <dbmslocks/>, отдельного лога у Монитора нет
 		Если Выборка.ВзаимоблокировкаСУБД Тогда
@@ -2310,7 +2310,7 @@
 			События = Новый Массив;
 			События.Добавить(УсловияСобытияТЖ("eq", "name", "CALL", "ge", "duration", Порог));
 			ЗаписатьЛогТЖ(Запись, Папка + "Calls", Глубина, База, События,
-				"processName,SessionID,clientID,applicationName,computerName,connectID,Context,Usr,Memory,MemoryPeak,InBytes,OutBytes,CpuTime");
+				"p:processName,SessionID,t:clientID,t:applicationName,t:computerName,t:connectID,Context,Usr,Memory,MemoryPeak,InBytes,OutBytes,CpuTime");
 		КонецЕсли;
 
 	КонецЦикла;
