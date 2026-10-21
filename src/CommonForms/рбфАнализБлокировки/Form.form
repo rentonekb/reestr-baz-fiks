@@ -68,9 +68,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Horizontal</group>
       <behavior>Auto</behavior>
+      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -260,9 +263,12 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Horizontal</group>
         <behavior>Auto</behavior>
+        <representation>None</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>false</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -311,6 +317,10 @@
       <items xsi:type="form:FormField">
         <name>ВремяС</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value></value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -515,9 +525,12 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Horizontal</group>
         <behavior>Auto</behavior>
+        <representation>None</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>false</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -657,15 +670,15 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <title>
+        <key>ru</key>
+        <value>Дополнительный фильтр</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Дополнительный фильтр</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаДопФильтрРасширеннаяПодсказка</name>
         <id>40</id>
@@ -707,8 +720,10 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
       <behavior>Auto</behavior>
+      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -961,11 +976,13 @@
         <id>62</id>
         <autoFill>true</autoFill>
       </contextMenu>
+      <representation>List</representation>
       <readOnly>true</readOnly>
       <autoMaxWidth>true</autoMaxWidth>
       <height>8</height>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
+      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -1357,11 +1374,13 @@
         <id>93</id>
         <autoFill>true</autoFill>
       </contextMenu>
+      <representation>List</representation>
       <readOnly>true</readOnly>
       <autoMaxWidth>true</autoMaxWidth>
       <height>8</height>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
+      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -1393,9 +1412,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Horizontal</group>
       <behavior>Auto</behavior>
+      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1445,32 +1467,24 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
-            <width>50</width>
-            <autoMaxWidth>true</autoMaxWidth>
-            <height>10</height>
-            <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:SpreadsheetDocumentFieldExtInfo">
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
-            <pointerType>Special</pointerType>
-            <verticalScrollBar>ScrollAuto</verticalScrollBar>
-            <horizontalScrollBar>ScrollAuto</horizontalScrollBar>
-            <selectionShowMode>Always</selectionShowMode>
-            <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
-            <showGroups>true</showGroups>
-            <enableStartDrag>true</enableStartDrag>
-            <enableDrag>true</enableDrag>
+            <verticalScrollBar>true</verticalScrollBar>
+            <horizontalScrollBar>true</horizontalScrollBar>
+            <showGrid>true</showGrid>
+            <showHeaders>true</showHeaders>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Схема</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Схема</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаСхемаРасширеннаяПодсказка</name>
           <id>110</id>
@@ -1540,15 +1554,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Граф XML</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Граф XML</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаГрафXMLРасширеннаяПодсказка</name>
           <id>115</id>
@@ -1618,15 +1632,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Рекомендации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Рекомендации</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаРекомендацииРасширеннаяПодсказка</name>
           <id>120</id>
@@ -1916,8 +1930,10 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <behavior>Auto</behavior>
+            <representation>None</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
+            <showTitle>false</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1972,15 +1988,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Сведения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Сведения</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаСведенияРасширеннаяПодсказка</name>
           <id>127</id>
@@ -2050,15 +2066,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Контекст</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Контекст</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаКонтекстРасширеннаяПодсказка</name>
           <id>149</id>
@@ -2128,15 +2144,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>SQL</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>SQL</value>
-        </title>
         <extendedTooltip>
           <name>СтраницаSQLРасширеннаяПодсказка</name>
           <id>154</id>
@@ -2206,15 +2222,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>1С</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>1С</value>
-        </title>
         <extendedTooltip>
           <name>Страница1СРасширеннаяПодсказка</name>
           <id>159</id>
@@ -2268,9 +2284,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Horizontal</group>
       <behavior>Auto</behavior>
+      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -2761,7 +2780,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
   </attributes>
   <attributes>
     <name>СведТаблица</name>

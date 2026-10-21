@@ -31,6 +31,7 @@
   <scheduledJobs>ScheduledJob.ОбработчикКомандОбслуживания</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольВладельцевБаз</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольСрокаАктуальности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рбфОчисткаВыполненийТЖ</scheduledJobs>
   <commonCommands>CommonCommand.рбфОтключениеСотрудника</commonCommands>
   <commonCommands>CommonCommand.рбфАнализГрафик</commonCommands>
   <commonCommands>CommonCommand.рбфАнализЗапросы</commonCommands>
@@ -66,4 +67,6 @@
   <informationRegisters>InformationRegister.рбфСобытияТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфЗаданияАнализаТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфНастройкиТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфВыполненияТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфИменаТаблицТЖ</informationRegisters>
 </mdclass:Configuration>

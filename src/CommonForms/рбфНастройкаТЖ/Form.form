@@ -9,7 +9,7 @@
     <id>1</id>
     <title>
       <key>ru</key>
-      <value>Каждый включённый показатель увеличивает объём ТЖ на сервере (TLOCK пишется без порога, ошибки - со всеми свойствами). «Применить на сервере» заменяет весь logcfg.xml сервера, текущий файл сохраняется рядом как logcfg.xml.bak_&lt;дата>. Ручные настройки ТЖ в прежнем файле в новый не переносятся.</value>
+      <value>Каждый включённый показатель увеличивает объём ТЖ на сервере (TLOCK пишется без порога, ошибки - со всеми свойствами). «Применить на сервере» заменяет весь logcfg.xml сервера, текущий файл сохраняется рядом как logcfg.xml.bak_&lt;дата&gt;. Ручные настройки ТЖ в прежнем файле в новый не переносятся.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -204,6 +204,7 @@
       <height>15</height>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
+      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -216,6 +217,7 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <fileDragMode>AsFileRef</fileDragMode>
+      <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПоказатели</name>
@@ -284,6 +286,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказателиПометка</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -502,10 +508,12 @@
           <id>37</id>
           <autoFill>true</autoFill>
         </contextMenu>
+        <representation>List</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <height>7</height>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
+        <selectionMode>SingleRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -573,15 +581,15 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <title>
+              <key>ru</key>
+              <value>Долгий запрос</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Долгий запрос</value>
-            </title>
             <extendedTooltip>
               <name>СтраницаДолгийЗапросРасширеннаяПодсказка</name>
               <id>54</id>
@@ -644,7 +652,7 @@
               <id>63</id>
               <title>
                 <key>ru</key>
-                <value>Блокировки СУБД (DML-запросы и &lt;dbmslocks/>)</value>
+                <value>Блокировки СУБД (DML-запросы и &lt;dbmslocks/&gt;)</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -677,15 +685,15 @@
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
             </items>
+            <title>
+              <key>ru</key>
+              <value>Ожидание на блокировке</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Ожидание на блокировке</value>
-            </title>
             <extendedTooltip>
               <name>СтраницаОжиданиеРасширеннаяПодсказка</name>
               <id>59</id>
@@ -815,15 +823,15 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </items>
+            <title>
+              <key>ru</key>
+              <value>Взаимоблокировка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Взаимоблокировка</value>
-            </title>
             <extendedTooltip>
               <name>СтраницаВзаимоблокировкаРасширеннаяПодсказка</name>
               <id>67</id>
@@ -887,15 +895,15 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <title>
+              <key>ru</key>
+              <value>Серверный вызов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Серверный вызов</value>
-            </title>
             <extendedTooltip>
               <name>СтраницаСерверныйВызовРасширеннаяПодсказка</name>
               <id>78</id>
@@ -949,15 +957,15 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </items>
+            <title>
+              <key>ru</key>
+              <value>Без настроек</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Без настроек</value>
-            </title>
             <extendedTooltip>
               <name>СтраницаБезНастроекРасширеннаяПодсказка</name>
               <id>83</id>
@@ -1108,21 +1116,23 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>HorizontalIfPossible</group>
             <behavior>Auto</behavior>
+            <representation>None</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
+            <showTitle>false</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
+        <title>
+          <key>ru</key>
+          <value>Настройка показателя</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Настройка показателя</value>
-        </title>
         <extendedTooltip>
           <name>ГруппаНастройкаПоказателяРасширеннаяПодсказка</name>
           <id>50</id>
@@ -1164,8 +1174,10 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
         <behavior>Auto</behavior>
+        <representation>None</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>false</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -1187,9 +1199,12 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Horizontal</group>
       <behavior>Auto</behavior>
+      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

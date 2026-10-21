@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c937fae-e9f3-41f9-8c37-4a384f3ef44b">
+  <producedTypes>
+    <selectionType typeId="9f8383a6-b40e-46ae-882a-8b8eec1be55c" valueTypeId="985248ca-c9e2-4919-ba62-0520c1dcacea"/>
+    <listType typeId="d6b33d1c-9ac2-4485-8ecc-c1c018b97097" valueTypeId="4d68925e-9cad-4165-a780-98854ec55ac1"/>
+    <managerType typeId="7fe77572-f517-41e4-bbfd-0322ea1827cc" valueTypeId="eef96604-c84c-4f19-9bcf-a21043eed553"/>
+    <recordSetType typeId="00eff21f-ad6c-443c-9477-72f84e533291" valueTypeId="69a50338-5663-42ca-9cc0-27e8cb391b39"/>
+    <recordKeyType typeId="529e8832-6757-4526-b5d4-b8fb7ad3fcc6" valueTypeId="3e59b0e1-60ff-4e81-ab6f-849109205a60"/>
+    <recordType typeId="a8bdb480-ee73-4ba1-9329-dc07460a62a5" valueTypeId="0deae7ef-da39-4b87-a7ac-e1f263c3edce"/>
+    <recordManagerType typeId="929cfde8-f463-4211-a093-e05c55baeb77" valueTypeId="56a4efd6-f9d2-4b64-b611-82bd364698e9"/>
+  </producedTypes>
+  <name>рбфИменаТаблицТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена таблиц ТЖ</value>
+  </synonym>
+  <comment>Кэш карты имён хранения (_Reference139, _Fld456) в имена метаданных для перевода текстов SQL из ТЖ</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="0e6344d1-fb0b-47c7-9b5d-377f04df4cc1">
+    <name>ИмяМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <dimensions uuid="19f8944c-e5cc-4eb6-94df-35a9f2053076">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="496b7e77-e9a3-4bc9-96ad-7ef085d772e4">
+    <name>ИмяХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>
