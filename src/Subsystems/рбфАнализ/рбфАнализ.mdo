@@ -19,10 +19,12 @@
   <content>CommonCommand.рбфАнализОшибкиТЖ</content>
   <content>CommonCommand.рбфАнализИИ</content>
   <content>CommonCommand.рбфНастройкаТЖ</content>
+  <content>CommonCommand.рбфНастройкиМониторинга</content>
   <content>CommonForm.рбфАнализГрафик</content>
   <content>CommonForm.рбфАнализЗапросы</content>
   <content>CommonForm.рбфАнализБлокировки</content>
   <content>CommonForm.рбфАнализОшибкиТЖ</content>
   <content>CommonForm.рбфАнализИИ</content>
   <content>CommonForm.рбфНастройкаТЖ</content>
+  <content>CommonForm.рбфНастройкиМониторинга</content>
 </mdclass:Subsystem>

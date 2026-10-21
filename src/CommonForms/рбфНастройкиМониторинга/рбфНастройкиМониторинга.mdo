@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4163586-dbd0-4bb7-90ae-d9730be0d535">
+  <name>рбфНастройкиМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки мониторинга</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+</mdclass:CommonForm>
