@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b76d9589-f4ef-4177-83a8-a64d43c90e0e">
+  <producedTypes>
+    <selectionType typeId="1232b1f0-5f46-482a-87c3-425beea48931" valueTypeId="1e9177a8-ea7d-4d74-8c3a-1518d6d9c57e"/>
+    <listType typeId="5053b543-5b56-4b96-8b9e-80fbb1c59f29" valueTypeId="d81beae9-339e-426b-a344-e3135bd72e19"/>
+    <managerType typeId="d55d5780-c555-419e-9289-6f183fbd17c2" valueTypeId="eb625cfb-a0bc-4b28-a585-b357c362973b"/>
+    <recordSetType typeId="ad7c7570-07ca-4739-8be1-4799105b3674" valueTypeId="b3a13ad7-f544-4a61-be40-70756bf8a2c6"/>
+    <recordKeyType typeId="62b6980d-453d-4459-8311-c667f64a8644" valueTypeId="d541149d-84dc-45f5-8c9b-b94594e7cf04"/>
+    <recordType typeId="5f2768b2-6be0-44ef-934d-644d7744011b" valueTypeId="3ccc9b84-d9be-44f0-babb-a9ee90a8928f"/>
+    <recordManagerType typeId="4f79a9c3-191b-4594-ad0b-2167f1c0a6b3" valueTypeId="3852bbbc-f828-4fd8-b0ef-c88a28759b6d"/>
+  </producedTypes>
+  <name>рбфПозицииФайловТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции файлов ТЖ</value>
+  </synonym>
+  <comment>Сколько байт файла ТЖ уже прочитало регламентное задание рбфСборТЖ. Набор сервера перезаписывается целиком после записи событий: файлы старше 2 ч выпадают сами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cbdc79aa-2257-4cd9-a6a9-3589a742ae3a">
+    <name>Смещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смещение, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="3013d975-4747-45e9-9eef-ecd29fd39918">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="6a673186-174c-46b2-97b0-7902fcb64847">
+    <name>Изменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <dimensions uuid="ef804b72-cde2-4b37-ae9c-6ca16b9df0be">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d627f3bd-6f63-4ec8-ae5b-10af977561d6">
+    <name>ПутьХеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш пути</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

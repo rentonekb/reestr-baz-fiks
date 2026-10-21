@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="774cd0ec-67b0-4237-b406-70519d33ba95">
+  <name>рбфАгрегатыТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегаты ТЖ</value>
+  </synonym>
+  <methodName>CommonModule.ПравилаРеестраБаз.АгрегатыТЖ</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>
