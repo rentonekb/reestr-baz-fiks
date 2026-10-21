@@ -281,12 +281,9 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Horizontal</group>
       <behavior>Auto</behavior>
-      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -750,13 +747,11 @@
       <id>45</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <representation>List</representation>
     <readOnly>true</readOnly>
     <autoMaxWidth>true</autoMaxWidth>
     <height>6</height>
     <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
-    <selectionMode>SingleRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -827,15 +822,15 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <title>
-        <key>ru</key>
-        <value>Сводка</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Сводка</value>
+      </title>
       <extendedTooltip>
         <name>СтраницаСводкаРасширеннаяПодсказка</name>
         <id>60</id>
@@ -1224,13 +1219,11 @@
           <id>85</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <representation>List</representation>
         <readOnly>true</readOnly>
         <autoMaxWidth>true</autoMaxWidth>
         <height>6</height>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
-        <selectionMode>SingleRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -1245,15 +1238,15 @@
         <fileDragMode>AsFileRef</fileDragMode>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
-      <title>
-        <key>ru</key>
-        <value>Диагноз</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Диагноз</value>
+      </title>
       <extendedTooltip>
         <name>СтраницаДиагнозРасширеннаяПодсказка</name>
         <id>65</id>
@@ -1323,15 +1316,15 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <title>
-        <key>ru</key>
-        <value>Диагноз (текст)</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Диагноз (текст)</value>
+      </title>
       <extendedTooltip>
         <name>СтраницаИсходныйДиагнозРасширеннаяПодсказка</name>
         <id>98</id>
@@ -1401,15 +1394,15 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <title>
-        <key>ru</key>
-        <value>Ошибка</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Ошибка</value>
+      </title>
       <extendedTooltip>
         <name>СтраницаОшибкаРасширеннаяПодсказка</name>
         <id>103</id>
@@ -1452,12 +1445,12 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>

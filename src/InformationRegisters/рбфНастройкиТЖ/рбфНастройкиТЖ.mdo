@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69ea925-20cc-4dfd-a91e-cc25382a0b83">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b69ea925-20cc-4dfd-a91e-cc25382a0b83">
   <producedTypes>
     <selectionType typeId="2dd578f5-acb1-4b62-ad70-37f110c51c07" valueTypeId="43c9f495-06d8-4a19-8178-0482bcce16d0"/>
     <listType typeId="a4c9e421-39bc-4534-b744-16bf968f47d7" valueTypeId="71fa83c1-b7c4-489c-8aac-aac2e730bc5b"/>
@@ -27,6 +27,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="e22d0d2a-4c9b-407f-88c6-2a95b0dedb3a">
     <name>ДолгийЗапросПорог</name>
@@ -41,6 +44,9 @@
         <scale>1</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="9e9aad01-ea66-45eb-b366-5ff86621364a">
     <name>ОжиданиеНаБлокировке1С</name>
@@ -51,6 +57,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="e8e4f366-e16d-48ca-9714-2bf1cb4f4f5b">
     <name>ОжиданиеНаБлокировкеСУБД</name>
@@ -61,6 +70,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="e7eed8dc-20c7-46b7-be3d-33539b879eac">
     <name>Взаимоблокировка1С</name>
@@ -71,6 +83,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="5f9b9271-a948-42e0-a9fa-dfeef2994a09">
     <name>ВзаимоблокировкаСУБД</name>
@@ -81,6 +96,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="4b809c44-d75a-4216-9874-f2454745f4b2">
     <name>ОшибкаТЖ</name>
@@ -91,6 +109,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="6a7cf384-a110-4dab-9559-beb05bcca8ae">
     <name>Транзакции</name>
@@ -101,6 +122,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="200b0eb9-276e-4265-ae09-32e618fb336f">
     <name>СерверныйВызов</name>
@@ -111,6 +135,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="ff79c8c8-0283-42d6-8284-8268514451e5">
     <name>СерверныйВызовПорог</name>
@@ -125,6 +152,9 @@
         <scale>1</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="05c468bc-a6ed-47c2-8b73-0cb38320abc8">
     <name>ДампПроцесса</name>
@@ -135,6 +165,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="0a15093d-18a3-4165-8771-17ef623336df">
     <name>КаталогЛогов</name>
@@ -148,6 +181,9 @@
         <length>250</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="d1cea0ee-3e78-44a1-939b-2d7c881c5e36">
     <name>Глубина</name>
@@ -161,6 +197,9 @@
         <precision>4</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="c866a214-51d9-4e84-8dfc-3e020e245023">
     <name>ТекстLogcfg</name>
@@ -172,6 +211,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="f540ddea-9c9d-4e14-9825-40ff1aac8daf">
     <name>Изменено</name>
@@ -183,6 +225,9 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="eaf9cef3-ed0e-484e-86da-e43a935d1473">
     <name>Автор</name>
@@ -196,30 +241,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
-  </resources>
-  <resources uuid="f912018d-51d9-4f48-a571-826839d3ab6b">
-    <name>ГлубинаВыполненийДней</name>
-    <synonym>
-      <key>ru</key>
-      <value>Глубина хранения выполнений, дн</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-      </numberQualifiers>
-    </type>
-  </resources>
-  <resources uuid="32d0d8ff-d8af-4fbc-ab6e-cbc2aea04972">
-    <name>СлужебныеЗапросы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Служебные запросы (подстроки по строке)</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="8e8236f5-d059-4126-aecf-5192836bbfd2">
     <name>Сервер1С</name>
@@ -233,6 +257,9 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
   <dimensions uuid="fd92b7f5-0e46-4a88-8b1a-ed1c80d8256e">
     <name>ИмяБазы1С</name>
@@ -246,5 +273,8 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>
