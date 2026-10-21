@@ -1961,6 +1961,31 @@
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
+              <name>КнопкаСоздатьУчёткиДляВсех</name>
+              <id>223</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>КнопкаСоздатьУчёткиДляВсехРасширеннаяПодсказка</name>
+                <id>224</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.СоздатьУчёткиДляВсех</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>КнопкаВыполнитьЗаданиеСейчас</name>
               <id>122</id>
               <visible>true</visible>
@@ -3086,6 +3111,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СоздатьПользователяЗаданияОбработка</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СоздатьУчёткиДляВсех</name>
+    <title>
+      <key>ru</key>
+      <value>Создать учётки для всех</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать отдельного пользователя РЗ_* каждому заданию расширения без пользователя</value>
+    </toolTip>
+    <id>222</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СоздатьУчёткиДляВсехОбработка</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
