@@ -731,6 +731,10 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <title>
+      <key>ru</key>
+      <value>Отборы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1008,9 +1012,7 @@
       </contextMenu>
       <representation>List</representation>
       <readOnly>true</readOnly>
-      <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
-      <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>SingleRow</selectionMode>
       <header>true</header>
@@ -1362,9 +1364,7 @@
       </contextMenu>
       <representation>List</representation>
       <readOnly>true</readOnly>
-      <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
-      <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>SingleRow</selectionMode>
       <header>true</header>
@@ -1381,6 +1381,10 @@
       <fileDragMode>AsFileRef</fileDragMode>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
+    <title>
+      <key>ru</key>
+      <value>Данные</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1461,9 +1465,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <height>8</height>
-                <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
                 <wrap>true</wrap>
@@ -1545,9 +1547,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <height>8</height>
-                <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
                 <wrap>true</wrap>
@@ -1681,9 +1681,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
             <height>6</height>
-            <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
             <wrap>true</wrap>
@@ -1738,6 +1736,10 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <title>
+      <key>ru</key>
+      <value>Подробности</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

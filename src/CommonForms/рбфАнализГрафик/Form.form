@@ -627,6 +627,10 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <title>
+      <key>ru</key>
+      <value>Отборы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -981,9 +985,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <representation>List</representation>
-    <autoMaxWidth>true</autoMaxWidth>
     <height>6</height>
-    <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>SingleRow</selectionMode>
     <header>true</header>
