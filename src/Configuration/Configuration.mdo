@@ -34,6 +34,7 @@
   <scheduledJobs>ScheduledJob.рбфОчисткаВыполненийТЖ</scheduledJobs>
   <scheduledJobs>ScheduledJob.рбфСборТЖ</scheduledJobs>
   <scheduledJobs>ScheduledJob.рбфАгрегатыТЖ</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рбфСнимокСУБД</scheduledJobs>
   <commonCommands>CommonCommand.рбфОтключениеСотрудника</commonCommands>
   <commonCommands>CommonCommand.рбфАнализГрафик</commonCommands>
   <commonCommands>CommonCommand.рбфАнализЗапросы</commonCommands>
@@ -74,4 +75,5 @@
   <informationRegisters>InformationRegister.рбфВыполненияТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфИменаТаблицТЖ</informationRegisters>
   <informationRegisters>InformationRegister.рбфПозицииФайловТЖ</informationRegisters>
+  <informationRegisters>InformationRegister.рбфСнимокСейчас</informationRegisters>
 </mdclass:Configuration>
