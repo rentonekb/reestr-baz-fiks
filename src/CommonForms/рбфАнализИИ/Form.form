@@ -264,6 +264,10 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <title>
+      <key>ru</key>
+      <value>Параметры</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -752,9 +756,7 @@
     </contextMenu>
     <representation>List</representation>
     <readOnly>true</readOnly>
-    <autoMaxWidth>true</autoMaxWidth>
     <height>6</height>
-    <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>SingleRow</selectionMode>
     <header>true</header>
@@ -815,9 +817,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <height>6</height>
-          <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <wrap>true</wrap>
@@ -1226,9 +1226,7 @@
         </contextMenu>
         <representation>List</representation>
         <readOnly>true</readOnly>
-        <autoMaxWidth>true</autoMaxWidth>
         <height>6</height>
-        <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>SingleRow</selectionMode>
         <header>true</header>
@@ -1311,9 +1309,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <height>6</height>
-          <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <wrap>true</wrap>
@@ -1389,9 +1385,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <height>6</height>
-          <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <wrap>true</wrap>
