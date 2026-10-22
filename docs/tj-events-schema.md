@@ -29,7 +29,7 @@
 | Строк | реквизит | Number(15,0) | rows | Rows, иначе RowsAffected |
 | Функция | реквизит | String(50) | func | Func (SDBL: CommitTransaction/RollbackTransaction/...) |
 | КонтекстТочка | реквизит | String(500) | ctxTop | первая непустая строка Context |
-| КонтекстСтрока | реквизит | String(500) | ctxLast | последняя непустая строка Context |
+| КонтекстСтрока | реквизит, индекс | String(500) | ctxLast | последняя непустая строка Context |
 | КонтекстПолный | реквизит | String (неогр.) | ctx | Context целиком |
 | ТекстЗапроса1С | реквизит | String (неогр.) | sdbl | SDBL: свойство Sdbl; DBMSSQL — заполняет 1С (см. ниже) |
 | ТекстSQL | реквизит | String (неогр.) | sql | Sql |
