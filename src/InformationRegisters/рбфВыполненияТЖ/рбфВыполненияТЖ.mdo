@@ -264,6 +264,7 @@
         <length>500</length>
       </stringQualifiers>
     </type>
+    <indexing>Index</indexing>
   </attributes>
   <attributes uuid="c29be61f-a5c6-4f9c-a272-e73403e2271b">
     <name>КонтекстПолный</name>
