@@ -44,6 +44,14 @@
 | РесурсОжидания | реквизит | String(400) | waitres | SQLBLOCK/SQLDEADLOCK: `<таблица хранения>\|<waitresource>` |
 | РежимБлокировки | реквизит | String(20) | lockmode | SQLBLOCK/SQLDEADLOCK: lock_mode (S, U, X, ...) |
 | ТекстSQLВиновника | реквизит | String (неогр.) | blksql | SQLBLOCK/SQLDEADLOCK: inputbuf блокирующего |
+| ЦПМкс | реквизит | Number(15,0) | cpu | CpuTime, мкс (CALL, SCALL) |
+| Память | реквизит | Number(15,0) | mem | Memory, байт; может быть отрицательной (CALL, SCALL) |
+| ПамятьПик | реквизит | Number(15,0) | mempeak | MemoryPeak, байт (CALL, SCALL) |
+| ВходБайт | реквизит | Number(15,0) | inb | InBytes (CALL, SCALL) |
+| ВыходБайт | реквизит | Number(15,0) | outb | OutBytes (CALL, SCALL) |
+
+Топ-25 CALL/SCALL по последней строке контекста (ИТС 5906) с сортировкой по Σ длительности, Σ CpuTime
+или Σ MemoryPeak — `рбфАнализСервер.ТопВызововТЖ`, флаг «серверные вызовы (CALL)» на странице «Запросы».
 
 Строки ограниченной длины — не больше 1024 (больше нельзя у реквизитов регистра: «Слишком большое значение описателя длины»).
 1С обрезает значения до длины реквизита.

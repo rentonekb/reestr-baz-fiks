@@ -437,6 +437,71 @@
       <stringQualifiers/>
     </type>
   </attributes>
+  <attributes uuid="aa18cac9-084e-4798-b114-5d2df20f327d">
+    <name>ЦПМкс</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦП, мкс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="62580a75-9c52-4780-adbf-ebd657055a63">
+    <name>Память</name>
+    <synonym>
+      <key>ru</key>
+      <value>Память, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="0b0f20f2-68f1-45a9-8665-4545dc033c8f">
+    <name>ПамятьПик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Память пик, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="469b368d-949e-4f68-8e11-0d36cf0d1a63">
+    <name>ВходБайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="c65d61d6-8a8e-44a7-be3a-0cc646280102">
+    <name>ВыходБайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано, байт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
   <dimensions uuid="3d683e06-ad81-4e15-8049-a5023c3d33e8">
     <name>Ид</name>
     <synonym>
