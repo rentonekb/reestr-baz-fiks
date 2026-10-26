@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c937fae-e9f3-41f9-8c37-4a384f3ef44b">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c937fae-e9f3-41f9-8c37-4a384f3ef44b">
   <producedTypes>
     <selectionType typeId="9f8383a6-b40e-46ae-882a-8b8eec1be55c" valueTypeId="985248ca-c9e2-4919-ba62-0520c1dcacea"/>
     <listType typeId="d6b33d1c-9ac2-4485-8ecc-c1c018b97097" valueTypeId="4d68925e-9cad-4165-a780-98854ec55ac1"/>
@@ -30,6 +30,9 @@
         <length>300</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="19f8944c-e5cc-4eb6-94df-35a9f2053076">
     <name>База</name>
@@ -43,6 +46,9 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
   <dimensions uuid="496b7e77-e9a3-4bc9-96ad-7ef085d772e4">
     <name>ИмяХранения</name>
@@ -56,5 +62,8 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>

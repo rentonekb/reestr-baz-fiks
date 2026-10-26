@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb19dbda-5e25-44af-ae8c-2c9755b36ac0">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb19dbda-5e25-44af-ae8c-2c9755b36ac0">
   <producedTypes>
     <selectionType typeId="ec435dfa-3718-48d1-8166-16e3c4c95f16" valueTypeId="d93d76cf-3442-41e9-b40b-4fdfb19a8c52"/>
     <listType typeId="dbbb664f-f973-4944-9d33-b127e75dc303" valueTypeId="dddddbbb-c1e4-4f39-947c-b2c5d8d989a0"/>
@@ -28,7 +28,10 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="08d6dd51-5fe4-40bd-85ad-034c571c5d28">
     <name>Микросекунды</name>
@@ -42,6 +45,9 @@
         <precision>6</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="e0b381e4-280b-4a1f-9521-8ea4511a82ee">
     <name>Сервер</name>
@@ -55,7 +61,10 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="117510ae-b069-490b-bfc2-37d7fb714652">
     <name>База</name>
@@ -69,7 +78,10 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="e06cae8e-68ee-48cf-b435-05aa48f71393">
     <name>Событие</name>
@@ -83,6 +95,9 @@
         <length>20</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="27fedf47-6fa9-46c6-80a3-8aec2b740c44">
     <name>ДлительностьМс</name>
@@ -97,6 +112,9 @@
         <scale>3</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="26fe1dbd-b115-4a8d-bd61-ba75ff471e9e">
     <name>Пользователь</name>
@@ -110,6 +128,9 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="ac8fb6db-aaf5-41c4-bb7a-cd0905cbf522">
     <name>СеансИд</name>
@@ -123,6 +144,9 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="73967603-6e80-445f-8e3a-4901125aea9b">
     <name>СоединениеИд</name>
@@ -136,7 +160,10 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="7124fb59-1ca6-4ea6-b712-9c5c29f8ad7b">
     <name>КлиентИд</name>
@@ -150,6 +177,9 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="21fbf0bd-757f-4e0b-8a64-d0ada22b93a5">
     <name>Приложение</name>
@@ -163,6 +193,9 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="422e3a06-93c9-4b4c-bb9a-5fad77bb112f">
     <name>Компьютер</name>
@@ -176,6 +209,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="e2c9b59c-2d76-40ae-be71-dc45e2d03e4f">
     <name>Процесс</name>
@@ -189,6 +225,9 @@
         <length>20</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="2949125d-8d4f-414e-9f0f-f492030b78d3">
     <name>dbpid</name>
@@ -202,6 +241,9 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="d6841867-1a50-45d4-8a4f-6b73c7d50f8d">
     <name>Транзакция</name>
@@ -212,6 +254,9 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="20c96ad4-71b8-4922-bd68-e47ad475cbf7">
     <name>Строк</name>
@@ -225,6 +270,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="0c761238-631b-40e8-95a2-24a81b92e360">
     <name>Функция</name>
@@ -238,6 +286,9 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="d4405726-e2c2-4d26-bad1-ef42df15c129">
     <name>КонтекстТочка</name>
@@ -251,6 +302,9 @@
         <length>500</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="c9c32bcd-0f28-45d6-9236-9330bad3c002">
     <name>КонтекстСтрока</name>
@@ -264,7 +318,10 @@
         <length>500</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="c29be61f-a5c6-4f9c-a272-e73403e2271b">
     <name>КонтекстПолный</name>
@@ -276,6 +333,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="5bbc4d09-e5ef-453e-a28e-745ec2b24a02">
     <name>ТекстЗапроса1С</name>
@@ -287,6 +347,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="8fbe448c-4de0-444e-a058-68869140ddf2">
     <name>ТекстSQL</name>
@@ -298,6 +361,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="84591146-4379-4962-bfcd-faff74b3cddc">
     <name>ШаблонХеш</name>
@@ -311,7 +377,10 @@
         <length>32</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="29822df9-0196-4a80-8e9e-84b2c0b648e6">
     <name>Блокировки</name>
@@ -323,6 +392,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="e6cb137e-8d25-420d-9099-2ecc211b19e0">
     <name>ЖдалСоединения</name>
@@ -336,6 +408,9 @@
         <length>200</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="46cd8c5d-cc81-4516-bfb8-ed2f6722407b">
     <name>Взаимоблокировка</name>
@@ -347,6 +422,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="d362cdba-e688-4901-894a-26c8eca67641">
     <name>Исключение</name>
@@ -360,6 +438,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="c1825407-c44e-4dbe-89d5-eca6b97e9e9d">
     <name>Описание</name>
@@ -371,6 +452,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="d13ba20a-5035-4727-9bd8-2d8a956ea0af">
     <name>ВиновникИд</name>
@@ -384,6 +468,9 @@
         <length>36</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="83173bfd-ee7b-4bbe-b023-914e1d2a5628">
     <name>БлокирующийSpid</name>
@@ -398,6 +485,9 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="9b9c19dd-e41e-4d2f-8bd9-3e98e2a4fb11">
     <name>РесурсОжидания</name>
@@ -405,13 +495,16 @@
       <key>ru</key>
       <value>Ресурс ожидания</value>
     </synonym>
-    <comment>SQLBLOCK, SQLDEADLOCK: "&lt;таблица хранения>|&lt;waitresource>", таблица может быть пустой</comment>
+    <comment>SQLBLOCK, SQLDEADLOCK: &quot;&lt;таблица хранения>|&lt;waitresource>&quot;, таблица может быть пустой</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>400</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="a31ae640-bd26-4f18-9ad6-fed03b3288c4">
     <name>РежимБлокировки</name>
@@ -425,6 +518,9 @@
         <length>20</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="071f196a-590e-4a31-8290-a1626e564bf4">
     <name>ТекстSQLВиновника</name>
@@ -437,6 +533,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="aa18cac9-084e-4798-b114-5d2df20f327d">
     <name>ЦПМкс</name>
@@ -450,6 +549,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="62580a75-9c52-4780-adbf-ebd657055a63">
     <name>Память</name>
@@ -463,6 +565,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="0b0f20f2-68f1-45a9-8665-4545dc033c8f">
     <name>ПамятьПик</name>
@@ -476,6 +581,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="469b368d-949e-4f68-8e11-0d36cf0d1a63">
     <name>ВходБайт</name>
@@ -489,6 +597,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="c65d61d6-8a8e-44a7-be3a-0cc646280102">
     <name>ВыходБайт</name>
@@ -502,6 +613,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="3d683e06-ad81-4e15-8049-a5023c3d33e8">
     <name>Ид</name>
@@ -515,5 +629,8 @@
         <length>36</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>

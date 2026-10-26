@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd15a3bc-d4be-43c4-8f5d-d228a6bb4a71">
+  <name>рбфСозданиеКластера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание кластера 1С</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Службы агента и RAS на S2019, агент лицензирования на 88.63 и требования назначения функциональности</value>
+  </toolTip>
+</mdclass:CommonCommand>

@@ -68,12 +68,9 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Horizontal</group>
       <behavior>Auto</behavior>
-      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -263,12 +260,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Horizontal</group>
         <behavior>Auto</behavior>
-        <representation>None</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>false</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -317,10 +311,6 @@
       <items xsi:type="form:FormField">
         <name>ВремяС</name>
         <id>21</id>
-        <title>
-          <key>ru</key>
-          <value></value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -555,12 +545,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Horizontal</group>
         <behavior>Auto</behavior>
-        <representation>None</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>false</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -700,15 +687,15 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <title>
-        <key>ru</key>
-        <value>Дополнительный фильтр</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительный фильтр</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаДопФильтрРасширеннаяПодсказка</name>
         <id>35</id>
@@ -731,15 +718,15 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
-    <title>
-      <key>ru</key>
-      <value>Отборы</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Отборы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>2</id>
@@ -754,10 +741,8 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
       <behavior>Auto</behavior>
-      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1010,11 +995,9 @@
         <id>1017</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <representation>List</representation>
       <readOnly>true</readOnly>
       <height>10</height>
       <autoMaxRowsCount>true</autoMaxRowsCount>
-      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -1362,11 +1345,9 @@
         <id>1045</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <representation>List</representation>
       <readOnly>true</readOnly>
       <height>10</height>
       <autoMaxRowsCount>true</autoMaxRowsCount>
-      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -1381,15 +1362,15 @@
       <fileDragMode>AsFileRef</fileDragMode>
       <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
-    <title>
-      <key>ru</key>
-      <value>Данные</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Данные</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаДанныеРасширеннаяПодсказка</name>
       <id>1057</id>
@@ -1402,12 +1383,9 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Horizontal</group>
       <behavior>Auto</behavior>
-      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1475,15 +1453,15 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
-            <title>
-              <key>ru</key>
-              <value>Жертва</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Жертва</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаЖертваРасширеннаяПодсказка</name>
               <id>1062</id>
@@ -1557,15 +1535,15 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
-            <title>
-              <key>ru</key>
-              <value>Виновник</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Виновник</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаВиновникРасширеннаяПодсказка</name>
               <id>1067</id>
@@ -1605,25 +1583,22 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>Horizontal</group>
             <behavior>Auto</behavior>
-            <representation>None</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>false</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
-        <title>
-          <key>ru</key>
-          <value>Жертва и виновник</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Жертва и виновник</value>
+        </title>
         <extendedTooltip>
           <name>СтраницаЖертваВиновникРасширеннаяПодсказка</name>
           <id>1071</id>
@@ -1691,15 +1666,15 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <title>
-          <key>ru</key>
-          <value>Схема</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Схема</value>
+        </title>
         <extendedTooltip>
           <name>СтраницаСхемаРасширеннаяПодсказка</name>
           <id>1076</id>
@@ -1736,15 +1711,15 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
-    <title>
-      <key>ru</key>
-      <value>Подробности</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Подробности</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПодробностиРасширеннаяПодсказка</name>
       <id>1080</id>
@@ -1759,10 +1734,8 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
       <behavior>Auto</behavior>
-      <representation>None</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>false</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

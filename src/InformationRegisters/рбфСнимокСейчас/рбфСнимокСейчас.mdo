@@ -155,7 +155,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
-        <scale>0</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -176,7 +175,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
-        <scale>0</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -197,7 +195,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
-        <scale>0</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -218,7 +215,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
-        <scale>0</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

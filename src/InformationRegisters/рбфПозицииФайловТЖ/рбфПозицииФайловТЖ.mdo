@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b76d9589-f4ef-4177-83a8-a64d43c90e0e">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b76d9589-f4ef-4177-83a8-a64d43c90e0e">
   <producedTypes>
     <selectionType typeId="1232b1f0-5f46-482a-87c3-425beea48931" valueTypeId="1e9177a8-ea7d-4d74-8c3a-1518d6d9c57e"/>
     <listType typeId="5053b543-5b56-4b96-8b9e-80fbb1c59f29" valueTypeId="d81beae9-339e-426b-a344-e3135bd72e19"/>
@@ -30,6 +30,9 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <attributes uuid="3013d975-4747-45e9-9eef-ecd29fd39918">
     <name>Путь</name>
@@ -41,6 +44,9 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="6a673186-174c-46b2-97b0-7902fcb64847">
     <name>Изменено</name>
@@ -52,6 +58,9 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="ef804b72-cde2-4b37-ae9c-6ca16b9df0be">
     <name>Сервер</name>
@@ -65,6 +74,9 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d627f3bd-6f63-4ec8-ae5b-10af977561d6">
@@ -79,5 +91,8 @@
         <length>32</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>

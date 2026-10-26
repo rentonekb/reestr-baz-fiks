@@ -22,6 +22,8 @@
   <content>Report.рбфРостТаблиц</content>
   <content>CommonForm.рбфОтключениеСотрудника</content>
   <content>CommonCommand.рбфОтключениеСотрудника</content>
+  <content>CommonCommand.рбфСозданиеКластера</content>
+  <content>CommonForm.рбфСозданиеКластера</content>
   <content>Report.рбфНагрузкаСерверов</content>
   <content>Report.рбфПроблемыТЖ</content>
 </mdclass:Subsystem>
