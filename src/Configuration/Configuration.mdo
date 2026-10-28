@@ -46,6 +46,7 @@
   <commonCommands>CommonCommand.рбфНастройкаТЖ</commonCommands>
   <commonCommands>CommonCommand.рбфНастройкиМониторинга</commonCommands>
   <commonCommands>CommonCommand.рбфСозданиеКластера</commonCommands>
+  <commonCommands>CommonCommand.рбфНайтиОшибку</commonCommands>
   <commonForms>CommonForm.рбфОтключениеСотрудника</commonForms>
   <commonForms>CommonForm.рбфАнализГрафик</commonForms>
   <commonForms>CommonForm.рбфАнализЗапросы</commonForms>
@@ -55,6 +56,7 @@
   <commonForms>CommonForm.рбфНастройкаТЖ</commonForms>
   <commonForms>CommonForm.рбфНастройкиМониторинга</commonForms>
   <commonForms>CommonForm.рбфСозданиеКластера</commonForms>
+  <commonForms>CommonForm.рбфНайтиОшибку</commonForms>
   <catalogs>Catalog.Отдел</catalogs>
   <reports>Report.рбфРостТаблиц</reports>
   <reports>Report.рбфНагрузкаСерверов</reports>

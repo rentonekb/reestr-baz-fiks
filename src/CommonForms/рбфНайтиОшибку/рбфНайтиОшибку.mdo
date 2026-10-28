@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22a75e4d-10d8-4f61-9c86-7f348e6d4522">
+  <name>рбфНайтиОшибку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти ошибку</value>
+  </synonym>
+  <comment>Поиск ошибки по вставленному тексту в событиях ТЖ и сводке</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9fbd68a-1a0a-4895-bf09-7146d0f986b7">
+  <name>рбфНайтиОшибку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти ошибку</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Вставить текст ошибки и найти её в ТЖ: база, пользователь, компьютер</value>
+  </toolTip>
+</mdclass:CommonCommand>
