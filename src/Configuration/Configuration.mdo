@@ -37,7 +37,6 @@
   <scheduledJobs>ScheduledJob.рбфАгрегатыТЖ</scheduledJobs>
   <scheduledJobs>ScheduledJob.рбфСнимокСУБД</scheduledJobs>
   <commonCommands>CommonCommand.рбфОтключениеСотрудника</commonCommands>
-  <commonCommands>CommonCommand.рбфАнализГрафик</commonCommands>
   <commonCommands>CommonCommand.рбфАнализЗапросы</commonCommands>
   <commonCommands>CommonCommand.рбфАнализБлокировки</commonCommands>
   <commonCommands>CommonCommand.рбфАнализВзаимоблокировки</commonCommands>
@@ -48,7 +47,6 @@
   <commonCommands>CommonCommand.рбфСозданиеКластера</commonCommands>
   <commonCommands>CommonCommand.рбфНайтиОшибку</commonCommands>
   <commonForms>CommonForm.рбфОтключениеСотрудника</commonForms>
-  <commonForms>CommonForm.рбфАнализГрафик</commonForms>
   <commonForms>CommonForm.рбфАнализЗапросы</commonForms>
   <commonForms>CommonForm.рбфАнализБлокировки</commonForms>
   <commonForms>CommonForm.рбфАнализОшибкиТЖ</commonForms>

@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Запросы, блокировки, ошибки ТЖ, график показателей, ИИ-анализ и настройка ТЖ</value>
   </explanation>
-  <content>CommonCommand.рбфАнализГрафик</content>
   <content>CommonCommand.рбфАнализЗапросы</content>
   <content>CommonCommand.рбфАнализБлокировки</content>
   <content>CommonCommand.рбфАнализВзаимоблокировки</content>
@@ -20,7 +19,6 @@
   <content>CommonCommand.рбфАнализИИ</content>
   <content>CommonCommand.рбфНастройкаТЖ</content>
   <content>CommonCommand.рбфНастройкиМониторинга</content>
-  <content>CommonForm.рбфАнализГрафик</content>
   <content>CommonForm.рбфАнализЗапросы</content>
   <content>CommonForm.рбфАнализБлокировки</content>
   <content>CommonForm.рбфАнализОшибкиТЖ</content>
